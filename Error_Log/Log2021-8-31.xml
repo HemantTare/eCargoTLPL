@@ -1,0 +1,185 @@
+<root>
+  <items>
+    <date>31/08/2021</date>
+    <time>13:02:07</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpense.aspx?Menu_Item_Id=MwAxADYA&amp;Mode=MgA=&amp;Id=MgA1AA==</url>
+    <message>System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Remark'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.operations_vehicle_trip_expense_frmvehicletripexpense_aspx.__DataBinding__control63(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx:line 441
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Bind_dg_TripExpense() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 616
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 596
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 275
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>31/08/2021</date>
+    <time>13:05:59</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpense.aspx?Menu_Item_Id=MwAxADYA&amp;Mode=MQA=</url>
+    <message>System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Remark'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.operations_vehicle_trip_expense_frmvehicletripexpense_aspx.__DataBinding__control63(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx:line 441
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Bind_dg_TripExpense() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 616
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.FillTripExpenseGrid() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 537
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 269
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>31/08/2021</date>
+    <time>13:07:51</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpense.aspx?Menu_Item_Id=MwAxADYA&amp;Mode=MQA=</url>
+    <message>System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Remark'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.operations_vehicle_trip_expense_frmvehicletripexpense_aspx.__DataBinding__control63(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx:line 441
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Bind_dg_TripExpense() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 616
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.FillTripExpenseGrid() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 537
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 269
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>31/08/2021</date>
+    <time>13:14:17</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpense.aspx?Menu_Item_Id=MwAxADYA&amp;Mode=MQA=</url>
+    <message>System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Remark'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.operations_vehicle_trip_expense_frmvehicletripexpense_aspx.__DataBinding__control63(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx:line 441
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Bind_dg_TripExpense() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 616
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.GetRouteOnFromToDateChange(Boolean isfromdate, DateTime date, DateTime FromDate, DateTime ToDate) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 370
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.dtpFromDate_SelectionChanged(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 394
+   at ComponentArt.Web.UI.Calendar.OnSelectionChanged(EventArgs e)
+   at ComponentArt.Web.UI.Calendar.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>31/08/2021</date>
+    <time>13:23:10</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpense.aspx?Menu_Item_Id=MwAxADYA&amp;Mode=MQA=</url>
+    <message>System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Remark'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.operations_vehicle_trip_expense_frmvehicletripexpense_aspx.__DataBinding__control63(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx:line 441
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Bind_dg_TripExpense() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 616
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.GetRouteOnFromToDateChange(Boolean isfromdate, DateTime date, DateTime FromDate, DateTime ToDate) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 370
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.dtpFromDate_SelectionChanged(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 394
+   at ComponentArt.Web.UI.Calendar.OnSelectionChanged(EventArgs e)
+   at ComponentArt.Web.UI.Calendar.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>31/08/2021</date>
+    <time>13:25:19</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpense.aspx?Menu_Item_Id=MwAxADYA&amp;Mode=MQA=</url>
+    <message>System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Remark'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at System.Web.UI.DataBinder.Eval(Object container, String expression)
+   at ASP.operations_vehicle_trip_expense_frmvehicletripexpense_aspx.__DataBinding__control63(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx:line 441
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.Bind_dg_TripExpense() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 616
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.GetRouteOnFromToDateChange(Boolean isfromdate, DateTime date, DateTime FromDate, DateTime ToDate) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 370
+   at Operations_VehicleTripExpense_FrmVehicleTripExpense.dtpFromDate_SelectionChanged(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpense.aspx.cs:line 394
+   at ComponentArt.Web.UI.Calendar.OnSelectionChanged(EventArgs e)
+   at ComponentArt.Web.UI.Calendar.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

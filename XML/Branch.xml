@@ -1,0 +1,6 @@
+<tabs>
+	<tab ID="zero" Text="General Details"/>
+	<tab ID="one" Text="Departments/Services"/>
+	<tab ID="two" Text="Parameters"/>
+	<tab ID="three" Text="Forms"/>
+</tabs>

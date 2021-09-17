@@ -1,0 +1,80 @@
+<root>
+  <items>
+    <date>05/05/2021</date>
+    <time>19:54:24</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTransportBill.aspx?Menu_Item_Id=MQA0ADMA&amp;Mode=MQA=&amp;Client_Id=MgA4ADAA&amp;Client_Name=SgAgAEsAIABQAEEAUABFAFIAIABMAFQARAAgAE4ARQBXACAAQgBPAEEAUgBEACAAUABSAE8ASgBFAEMAVAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Finance_Accounting_Vouchers_WucTransportBill.dg_Bill_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 1291
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Finance_Accounting_Vouchers_WucTransportBill.BindBillGrid() in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 515
+   at Finance_Accounting_Vouchers_WucTransportBill.set_SessionBillGrid(DataTable value) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 739
+   at Raj.EC.FinancePresenter.TransportBillPresenter.FillGCDetails(Int32 from) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TransportBillPresenter.cs:line 54
+   at Finance_Accounting_Vouchers_WucTransportBill.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 1073
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>05/05/2021</date>
+    <time>19:54:54</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTransportBill.aspx?Menu_Item_Id=MQA0ADMA&amp;Mode=MQA=&amp;Client_Id=MgA4ADAA&amp;Client_Name=SgAgAEsAIABQAEEAUABFAFIAIABMAFQARAAgAE4ARQBXACAAQgBPAEEAUgBEACAAUABSAE8ASgBFAEMAVAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Finance_Accounting_Vouchers_WucTransportBill.dg_Bill_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 1291
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Finance_Accounting_Vouchers_WucTransportBill.BindBillGrid() in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 515
+   at Finance_Accounting_Vouchers_WucTransportBill.set_SessionBillGrid(DataTable value) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 739
+   at Raj.EC.FinancePresenter.TransportBillPresenter.FillGCDetails(Int32 from) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TransportBillPresenter.cs:line 54
+   at Finance_Accounting_Vouchers_WucTransportBill.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 1073
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>05/05/2021</date>
+    <time>19:56:08</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTransportBill.aspx?Menu_Item_Id=MQA0ADMA&amp;Mode=MQA=&amp;Client_Id=MgA4ADAA&amp;Client_Name=SgAgAEsAIABQAEEAUABFAFIAIABMAFQARAAgAE4ARQBXACAAQgBPAEEAUgBEACAAUABSAE8ASgBFAEMAVAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.
+Parameter name: length
+   at System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at Finance_Accounting_Vouchers_WucTransportBill.dg_Bill_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 1291
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Finance_Accounting_Vouchers_WucTransportBill.BindBillGrid() in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 515
+   at Finance_Accounting_Vouchers_WucTransportBill.set_SessionBillGrid(DataTable value) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 739
+   at Raj.EC.FinancePresenter.TransportBillPresenter.FillGCDetails(Int32 from) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TransportBillPresenter.cs:line 54
+   at Finance_Accounting_Vouchers_WucTransportBill.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 1073
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

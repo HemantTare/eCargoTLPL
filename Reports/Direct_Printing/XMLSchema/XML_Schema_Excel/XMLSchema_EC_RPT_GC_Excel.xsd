@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GC_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Booking_x0020_Office" type="xs:string" minOccurs="0" />
+              <xs:element name="Consignor_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Consignor_Address" type="xs:string" minOccurs="0" />
+			  <xs:element name="Consignor_CST_TIN_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Consignee_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Consignee_Address" type="xs:string" minOccurs="0" />
+			  <xs:element name="Consignee_CST_TIN_No" type="xs:string" minOccurs="0" />
+              <xs:element name="GC_No" type="xs:string" minOccurs="0" />
+              <xs:element name="GC_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="From_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="To_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Delivery_x0020_At" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GC_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="Packing_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Said_To_Contain" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GC_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Actual_Weight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Charged_x0020_Weight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Charged_Upto" type="xs:string" minOccurs="0" />
+              <xs:element name="Private_x0020_Mark" type="xs:string" minOccurs="0" />
+              <xs:element name="Invoice_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Declared_Value" type="xs:int" minOccurs="0" />
+              <xs:element name="Road_Permit_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Load_x0020_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Basis_x0020_of_x0020_Booking" type="xs:string" minOccurs="0" />
+              <xs:element name="To_x0020_Be_x0020_Paid_x0020_By" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GC_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Freight_Amt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Surcharge" type="xs:int" minOccurs="0" />
+              <xs:element name="FOV" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cartage_PF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Hamali_Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Other_Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Statistical_Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Service_Tax_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_GC_Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

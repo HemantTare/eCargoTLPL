@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Unloading_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Is_Cancelled" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Actual_Unloading_Sheet_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Actual_Unloading_Sheet_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="Vehicle_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Scheduled_Arrival_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Scheduled_Arrival_Time" type="xs:string" minOccurs="0" />
+              <xs:element name="Actual_Unloading_Sheet_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Vehicle_Arrival_Time" type="xs:string" minOccurs="0" />
+              <xs:element name="Truck_Unloaded_Time" type="xs:string" minOccurs="0" />
+              <xs:element name="Reason_For_Late" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Memo_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="GC_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Received_Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_Received_Weight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver_1_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver_2_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="UnLoaded_x0020_By" type="xs:string" minOccurs="0" />
+              <xs:element name="Memo_From_Branch_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Actual_Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="Received_Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="EF_Master_Received_Condition" type="xs:string" minOccurs="0" />
+              <xs:element name="Damaged_Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="Damaged_Value" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

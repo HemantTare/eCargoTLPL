@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_AddExistingOtherAgencyGCResource1.Text" xml:space="preserve">
+    <value>Add Existing GC</value>
+  </data>
+  <data name="btn_AddExistingOtherAgencyGCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_AddNewOtherAgencyGCResource1.Text" xml:space="preserve">
+    <value>Add New Agency GC</value>
+  </data>
+  <data name="btn_AddNewOtherAgencyGCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_AddResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_BindAUSDetailsResource1.Text" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="btn_BindAUSDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_HideResource1.Text" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="btn_HideResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_AgencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_ArrivedFromLocationResource1.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchLocationForOtherAgencyBooking</value>
+  </data>
+  <data name="ddl_ArrivedFromLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_ExistingOtherAgencyGCResource1.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchOtherAgencyGC</value>
+  </data>
+  <data name="ddl_ExistingOtherAgencyGCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_ExistingOtherAgencyGCResource2.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchOtherAgencyGC</value>
+  </data>
+  <data name="ddl_ExistingOtherAgencyGCResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_LHPOResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_Reason_For_Late_ArrivalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_Reason_For_Late_UploadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_Reason_For_Late_UploadingResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_Received_CondintionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_Received_CondintionResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_SupervisorResource1.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchEmployee</value>
+  </data>
+  <data name="ddl_SupervisorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_SupervisorResource2.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchEmployee</value>
+  </data>
+  <data name="ddl_SupervisorResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_SupervisorResource3.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchEmployee</value>
+  </data>
+  <data name="ddl_SupervisorResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_OtherAgencyGCDetailsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_OtherAgencyGCDetailsResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dg_OtherAgencyGCDetailsResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dg_OtherAgencyGCDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_UnloadingDetailsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_UnloadingDetailsResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dg_UnloadingDetailsResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dg_UnloadingDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ActualArrivalDateResource1.Text" xml:space="preserve">
+    <value>Actual Arrival Date :</value>
+  </data>
+  <data name="lbl_ActualArrivalDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ActualArrivalDateResource2.Text" xml:space="preserve">
+    <value>Actual Arrival Date :</value>
+  </data>
+  <data name="lbl_ActualArrivalDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ActualArrivalTimeResource1.Text" xml:space="preserve">
+    <value>Actual Arrival Time :</value>
+  </data>
+  <data name="lbl_ActualArrivalTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ActualArrivalTimeResource2.Text" xml:space="preserve">
+    <value>Actual Arrival Time :</value>
+  </data>
+  <data name="lbl_ActualArrivalTimeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_AgencyResource1.Text" xml:space="preserve">
+    <value>Agency :</value>
+  </data>
+  <data name="lbl_AgencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ArrivedFromResource1.Text" xml:space="preserve">
+    <value>Arrived From :</value>
+  </data>
+  <data name="lbl_ArrivedFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_AUSUnloading_HeadingResource1.Text" xml:space="preserve">
+    <value>Actual Unloading Sheet</value>
+  </data>
+  <data name="lbl_AUSUnloading_HeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Balance_ArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_BalanceArticlesResource1.Text" xml:space="preserve">
+    <value>Balance :</value>
+  </data>
+  <data name="lbl_BalanceArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_BalanceArticlesValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_BalanceArticlesValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Booking_ArticleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPO_DateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPO_DateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPO_No_For_PrintResource1.Text" xml:space="preserve">
+    <value>LHC No :</value>
+  </data>
+  <data name="lbl_LHPO_No_For_PrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPODateResource1.Text" xml:space="preserve">
+    <value>LHC  Date :</value>
+  </data>
+  <data name="lbl_LHPODateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPODateResource2.Text" xml:space="preserve">
+    <value>LHC  Date :</value>
+  </data>
+  <data name="lbl_LHPODateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPONoResource1.Text" xml:space="preserve">
+    <value>LHC No :</value>
+  </data>
+  <data name="lbl_LHPONoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Loaded_Actual_WtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Loaded_Actual_WtResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Loaded_ArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LoadedArticlesResource1.Text" xml:space="preserve">
+    <value>Loaded :</value>
+  </data>
+  <data name="lbl_LoadedArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ReasonforLateArrivalResource1.Text" xml:space="preserve">
+    <value>Reason for Late Arrival :</value>
+  </data>
+  <data name="lbl_ReasonforLateArrivalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ReasonforLateUnloadingResource1.Text" xml:space="preserve">
+    <value>Reason for Late Unloading :</value>
+  </data>
+  <data name="lbl_ReasonforLateUnloadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ReasonforLateUnloadingResource2.Text" xml:space="preserve">
+    <value>Reason for Late Unloading :</value>
+  </data>
+  <data name="lbl_ReasonforLateUnloadingResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_RemarksResource1.Text" xml:space="preserve">
+    <value>Remarks :</value>
+  </data>
+  <data name="lbl_RemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_RemarksResource2.Text" xml:space="preserve">
+    <value>Remarks :</value>
+  </data>
+  <data name="lbl_RemarksResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalDateResource1.Text" xml:space="preserve">
+    <value>Scheduled Arrival Date :</value>
+  </data>
+  <data name="lbl_ScheduledArrivalDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalDateResource2.Text" xml:space="preserve">
+    <value>Scheduled Arrival Date :</value>
+  </data>
+  <data name="lbl_ScheduledArrivalDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalDateValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalDateValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalTimeResource1.Text" xml:space="preserve">
+    <value>Scheduled Arrival Time :</value>
+  </data>
+  <data name="lbl_ScheduledArrivalTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalTimeResource2.Text" xml:space="preserve">
+    <value>Scheduled Arrival Time :</value>
+  </data>
+  <data name="lbl_ScheduledArrivalTimeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalTimeValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalTimeValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalTimeValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ScheduledArrivalTimeValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Booking_Articles_WtResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Booking_Articles_WtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Booking_Articles_WtResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Booking_Articles_WtResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Booking_ArticlesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Booking_ArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Booking_ArticlesResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Booking_ArticlesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Damage_Leakage_ArticlesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Damage_Leakage_ArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Damage_Leakage_ArticlesResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Damage_Leakage_ArticlesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Damage_Leakage_ValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Damage_Leakage_ValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Damage_Leakage_ValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Damage_Leakage_ValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_GCResource1.Text" xml:space="preserve">
+    <value>Total GC :</value>
+  </data>
+  <data name="lbl_Total_GCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Loaded_Articles_WtResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Loaded_Articles_WtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Loaded_Articles_WtResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Loaded_Articles_WtResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Loaded_ArticlesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Loaded_ArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Loaded_ArticlesResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Loaded_ArticlesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Received_Articles_WtResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Received_Articles_WtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Received_Articles_WtResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Received_Articles_WtResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Received_ArticlesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Received_ArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Received_ArticlesResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Received_ArticlesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalExcessArticlesResource1.Text" xml:space="preserve">
+    <value>Total Excess Articles :</value>
+  </data>
+  <data name="lbl_TotalExcessArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalExcessArticlesResource2.Text" xml:space="preserve">
+    <value>Total Excess Articles :</value>
+  </data>
+  <data name="lbl_TotalExcessArticlesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalExcessArticlesValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalExcessArticlesValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalExcessArticlesValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalExcessArticlesValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalLoadedArticlesResource1.Text" xml:space="preserve">
+    <value>Total Un-Loaded Articles :</value>
+  </data>
+  <data name="lbl_TotalLoadedArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalResource1.Text" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="lbl_TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalResource2.Text" xml:space="preserve">
+    <value>Total :</value>
+  </data>
+  <data name="lbl_TotalResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalShortArticlesResource1.Text" xml:space="preserve">
+    <value>Total Short Articles :</value>
+  </data>
+  <data name="lbl_TotalShortArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalShortArticlesResource2.Text" xml:space="preserve">
+    <value>Total Short Articles :</value>
+  </data>
+  <data name="lbl_TotalShortArticlesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalShortArticlesValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalShortArticlesValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalShortArticlesValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalShortArticlesValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TURDateResource1.Text" xml:space="preserve">
+    <value>GAS Date :</value>
+  </data>
+  <data name="lbl_TURDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TURDateResource2.Text" xml:space="preserve">
+    <value>GAS Date :</value>
+  </data>
+  <data name="lbl_TURDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TURNoResource1.Text" xml:space="preserve">
+    <value>GAS No :</value>
+  </data>
+  <data name="lbl_TURNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TURNoResource2.Text" xml:space="preserve">
+    <value>GAS No :</value>
+  </data>
+  <data name="lbl_TURNoResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TURNoValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TURNoValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TURNoValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TURNoValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadedbySupervisorResource1.Text" xml:space="preserve">
+    <value>Unloaded by Supervisor :</value>
+  </data>
+  <data name="lbl_UnloadedbySupervisorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadedbySupervisorResource2.Text" xml:space="preserve">
+    <value>Unloaded by Supervisor :</value>
+  </data>
+  <data name="lbl_UnloadedbySupervisorResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadingDateResource1.Text" xml:space="preserve">
+    <value>Unloading Date :</value>
+  </data>
+  <data name="lbl_UnloadingDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadingDateResource2.Text" xml:space="preserve">
+    <value>Unloading Date :</value>
+  </data>
+  <data name="lbl_UnloadingDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadingDateValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadingDateValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadingDateValueResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadingDateValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadingTimeResource1.Text" xml:space="preserve">
+    <value>Unloading Time :</value>
+  </data>
+  <data name="lbl_UnloadingTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_UnloadingTimeResource2.Text" xml:space="preserve">
+    <value>Unloading Time :</value>
+  </data>
+  <data name="lbl_UnloadingTimeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Vehicle_CategoryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Vehicle_CategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Vehicle_NoResource1.Text" xml:space="preserve">
+    <value>Vehicle No :</value>
+  </data>
+  <data name="lbl_Vehicle_NoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_VehicleCategoryResource1.Text" xml:space="preserve">
+    <value>Vehicle Category :</value>
+  </data>
+  <data name="lbl_VehicleCategoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_VehicleNoResource1.Text" xml:space="preserve">
+    <value>Vehicle No :</value>
+  </data>
+  <data name="lbl_VehicleNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_DeleteResource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbtn_DeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_EditResource1.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lbtn_EditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Msg_Agency" xml:space="preserve">
+    <value>Please Select Agency.</value>
+  </data>
+  <data name="Msg_ArrivalDate" xml:space="preserve">
+    <value>Arrival Date Should Not Be Greater Than Unloading Date .</value>
+  </data>
+  <data name="Msg_AusDate" xml:space="preserve">
+    <value>GAS Date Should be Less than or equal to System/Current Date</value>
+  </data>
+  <data name="Msg_DateValidationAAD_Against_LHPO" xml:space="preserve">
+    <value>Actual Arrival Date Can Not be Less than LHC Date</value>
+  </data>
+  <data name="Msg_DateValidationAAD_Against_TUR" xml:space="preserve">
+    <value> Actual Arrival Date Should be Less than or equal to GAS Date</value>
+  </data>
+  <data name="Msg_LHPONo" xml:space="preserve">
+    <value>Please Enter LHC</value>
+  </data>
+  <data name="Msg_ReasonForLateArrival" xml:space="preserve">
+    <value>Please Select Reason For Late Arrival.</value>
+  </data>
+  <data name="Msg_ReasonFroLateUnloading" xml:space="preserve">
+    <value>Please Select Reason For Late Unloading.</value>
+  </data>
+  <data name="Msg_Supervisor" xml:space="preserve">
+    <value>Please Select Supervisor.</value>
+  </data>
+  <data name="Msg_TotalReceivedArticles" xml:space="preserve">
+    <value>Total Received Arrival Should Be Greater Than Zero.</value>
+  </data>
+  <data name="Msg_UnloadingDate" xml:space="preserve">
+    <value>Unloading Date Time Should Not Be Less Than Actual Arrival Date Time.</value>
+  </data>
+  <data name="Msg_UnloadingTime" xml:space="preserve">
+    <value>Actual Arrival Time Should be Less than or equal to Unloading Time</value>
+  </data>
+  <data name="Msg_VehicleNo" xml:space="preserve">
+    <value>Please Enter Vehicle No.</value>
+  </data>
+  <data name="pnl_AddExistingOtherAgencyGCResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_AddExistingOtherAgencyGCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_AUSUnloadingResource1.GroupingText" xml:space="preserve">
+    <value>AUS Details</value>
+  </data>
+  <data name="pnl_AUSUnloadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_AUSUnloadingResource2.GroupingText" xml:space="preserve">
+    <value>GC Details</value>
+  </data>
+  <data name="pnl_AUSUnloadingResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Damaged_Leakage_ArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Damaged_Leakage_ArticlesResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Damaged_Leakage_ValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Damaged_Leakage_ValueResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_GCIdResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_LHPO_No_For_PrintResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_LHPO_No_For_PrintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Loaded_ArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_LoadedArticlesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_LoadedArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Recieved_ArticleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Recieved_ArticleResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Recieved_Articles_WtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Recieved_Articles_WtResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Total_GCResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Total_GCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_TotalLoadedArticlesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_TotalLoadedArticlesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_VehicleNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_VehicleNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wuc_ActualArrivalDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wuc_AUSDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wuc_AUSDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wuc_AUSDateResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wuc_LHPODateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wuc_LHPODateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

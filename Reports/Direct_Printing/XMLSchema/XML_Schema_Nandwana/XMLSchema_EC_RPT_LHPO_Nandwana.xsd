@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lhpo_no_for_print" type="xs:string" minOccurs="0" />
+              <xs:element name="Gc_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="consignor_name" type="xs:string" minOccurs="0" />
+              <xs:element name="consignee_name" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="description" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Actual_Weight" type="xs:int" minOccurs="0" />
+              <xs:element name="payment_type" type="xs:string" minOccurs="0" />
+              <xs:element name="delivery_type" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="driver_name" type="xs:string" minOccurs="0" />
+              <xs:element name="Lorry_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Goods_x0020_loaded_x0020_by" type="xs:string" minOccurs="0" />
+              <xs:element name="Goods_x0020_Unloaded_x0020_by" type="xs:string" minOccurs="0" />
+              <xs:element name="lhpo_x0020_from_x0020_branch" type="xs:string" minOccurs="0" />
+              <xs:element name="lhpo_x0020_to_x0020_branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Lorry_x0020_Start" type="xs:string" minOccurs="0" />
+              <xs:element name="GC_To_Location" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

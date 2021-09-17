@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<tabs>
+  <tab ID="zero" Text="Petrol Pump General"/>
+  <tab ID="one" Text="Petrol Pump Finance Details"/>
+   
+</tabs>

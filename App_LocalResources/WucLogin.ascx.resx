@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_loginResource1.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="btn_loginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_loginResource2.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="btn_loginResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_loginResource3.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="btn_loginResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_DivisionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_DivisionResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_DivisionResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_YearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_YearResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_YearResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgLoginResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgLoginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgLoginResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgLoginResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgLoginResource3.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgLoginResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>PLEASE LOGIN HERE</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource2.Text" xml:space="preserve">
+    <value>PLEASE LOGIN HERE</value>
+  </data>
+  <data name="Label1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource3.Text" xml:space="preserve">
+    <value>PLEASE LOGIN HERE</value>
+  </data>
+  <data name="Label1Resource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Error_MessageResource1.Text" xml:space="preserve">
+    <value>You are not authorized to access ODC/LOGISTICS SBU</value>
+  </data>
+  <data name="lbl_Error_MessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Error_MessageResource2.Text" xml:space="preserve">
+    <value>You are not authorized to access ODC/LOGISTICS  SBU</value>
+  </data>
+  <data name="lbl_Error_MessageResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Error_MessageResource3.Text" xml:space="preserve">
+    <value>You are not authorized to access ODC/LOGISTICS SBU</value>
+  </data>
+  <data name="lbl_Error_MessageResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.Text" xml:space="preserve">
+    <value>Invalid Login or Password !</value>
+  </data>
+  <data name="lbl_ErrorsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource2.Text" xml:space="preserve">
+    <value>Invalid Login or Password !</value>
+  </data>
+  <data name="lbl_ErrorsResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource3.Text" xml:space="preserve">
+    <value>Invalid Login or Password !</value>
+  </data>
+  <data name="lbl_ErrorsResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_loginResource1.Text" xml:space="preserve">
+    <value>Login:</value>
+  </data>
+  <data name="lbl_loginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_loginResource2.Text" xml:space="preserve">
+    <value>Login:</value>
+  </data>
+  <data name="lbl_loginResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_loginResource3.Text" xml:space="preserve">
+    <value>Login:</value>
+  </data>
+  <data name="lbl_loginResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_passwordResource1.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="lbl_passwordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_passwordResource2.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="lbl_passwordResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_passwordResource3.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="lbl_passwordResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_SelectDivision.text" xml:space="preserve">
+    <value>Select SBU:</value>
+  </data>
+  <data name="lbl_SelectDivisionResource1.Text" xml:space="preserve">
+    <value>Select SBU :</value>
+  </data>
+  <data name="lbl_SelectDivisionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_SelectDivisionResource2.Text" xml:space="preserve">
+    <value>Select SBU :</value>
+  </data>
+  <data name="lbl_SelectDivisionResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_SelectYear.text" xml:space="preserve">
+    <value>Select Year:</value>
+  </data>
+  <data name="lbl_SelectYearResource1.Text" xml:space="preserve">
+    <value>Select Year:</value>
+  </data>
+  <data name="lbl_SelectYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_SelectYearResource2.Text" xml:space="preserve">
+    <value>Select Year:</value>
+  </data>
+  <data name="lbl_SelectYearResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_DivisionResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_DivisionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_DivisionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_DivisionResource2.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_DivisionResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_DivisionResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_DivisionResource3.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_DivisionResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_DivisionResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_LoginResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_LoginResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_LoginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_LoginResource2.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_LoginResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_LoginResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_LoginResource3.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_LoginResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_LoginResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_PasswordResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_PasswordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_PasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_PasswordResource2.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_PasswordResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_PasswordResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_PasswordResource3.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_PasswordResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_PasswordResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_YearResource1.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_YearResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_YearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_YearResource2.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_YearResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_YearResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_YearResource3.ErrorMessage" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="RFV_YearResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFV_YearResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_loginResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_loginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_loginResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_loginResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_loginResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_loginResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_passwordResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_passwordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_passwordResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_passwordResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_passwordResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_passwordResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Error_MessageResource1.Text" xml:space="preserve">
+    <value>You are not authorized to access FTL Division</value>
+  </data>
+  <data name="Msg_WrongdivisionLogin" xml:space="preserve">
+    <value>You are not authorized to access selected SBU</value>
+  </data>
+</root>

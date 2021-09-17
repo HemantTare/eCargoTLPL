@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tabs>
+	<tab ID="zero" Text="MR Delivery"/>
+	<tab ID="one" Text="MR Delivery Details"/>
+
+</tabs>

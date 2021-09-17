@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lhpo_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Branch_x0020_Off" type="xs:string" minOccurs="0" />
+              <xs:element name="From" type="xs:string" minOccurs="0" />
+              <xs:element name="To" type="xs:string" minOccurs="0" />
+              <xs:element name="Lorry_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Lorry_x0020_Ch_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Regd._x0020_At" type="xs:string" minOccurs="0" />
+              <xs:element name="Make" type="xs:string" minOccurs="0" />
+              <xs:element name="Model" type="xs:string" minOccurs="0" />
+              <xs:element name="Colour" type="xs:string" minOccurs="0" />
+              <xs:element name="Chasis_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Engine_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Fitness_x0020_Validity_x0020_Up_x0020_To" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="National_State_x0020_Permit_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Permit_x0020_Valid_x0020_From" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Permit_x0020_Valid_x0020_Upto" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Insured_x0020_With" type="xs:string" minOccurs="0" />
+              <xs:element name="Divn_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Policy_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Policy_x0020_Dt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Policy_x0020_Upto" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Owner_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner_x0020_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner_x0020_Phone_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Financer_x0027_s_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Financer_x0027_s_x0020_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver_x0020_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="License_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="License_x0020_Dt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Issued_x0020_By" type="xs:string" minOccurs="0" />
+              <xs:element name="License_x0020_Upto" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Broker_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Loading_x0020_Advice_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Loading_x0020_Advice_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Transport_x0020_Ms" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone_x0020_No" type="xs:int" minOccurs="0" />
+              <xs:element name="Remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="Lorry_x0020_Hire_x0020_Rs" type="xs:int" minOccurs="0" />
+              <xs:element name="Per_x0020_Mt" type="xs:int" minOccurs="0" />
+              <xs:element name="Loading" type="xs:int" minOccurs="0" />
+              <xs:element name="Unloading" type="xs:int" minOccurs="0" />
+              <xs:element name="Lorry_x0020_Hire" type="xs:int" minOccurs="0" />
+              <xs:element name="Advance_x0020_Paid" type="xs:int" minOccurs="0" />
+              <xs:element name="Balance" type="xs:int" minOccurs="0" />
+              <xs:element name="Crossing" type="xs:int" minOccurs="0" />
+              <xs:element name="Del_x0020_Commission" type="xs:int" minOccurs="0" />
+              <xs:element name="Other" type="xs:int" minOccurs="0" />
+              <xs:element name="Ms" type="xs:string" minOccurs="0" />
+              <xs:element name="Pay_x0020_Rs" type="xs:int" minOccurs="0" />
+              <xs:element name="Pkgs" type="xs:int" minOccurs="0" />
+              <xs:element name="Rs" type="xs:int" minOccurs="0" />
+              <xs:element name="Commission" type="xs:int" minOccurs="0" />
+              <xs:element name="Vasuli" type="xs:int" minOccurs="0" />
+              <xs:element name="Labour" type="xs:int" minOccurs="0" />
+              <xs:element name="Total" type="xs:int" minOccurs="0" />
+			  <xs:element name="Created_by" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lhpo_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Manifest" type="xs:string" minOccurs="0" />
+              <xs:element name="Pkg" type="xs:int" minOccurs="0" />
+              <xs:element name="Weight_x0020_Kg." type="xs:decimal" minOccurs="0" />
+              <xs:element name="Collection" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

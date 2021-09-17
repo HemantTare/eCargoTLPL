@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<tabs>
+	<tab ID="zero" Text="Unloading Details"/>
+	<tab ID="one" Text="Excess Details"/>
+
+</tabs>
+

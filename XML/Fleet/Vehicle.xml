@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tabs>
+  <tab ID="1" Text="General"/>
+  <tab ID="2" Text="Engine/Body"/>
+  <tab ID="3" Text="Loan Details"/> 
+  <tab ID="4" Text="Chasis/Tyre"/>
+  <tab ID="5" Text="Registration Fitness"/>
+  <tab ID="6" Text="Permit"/>
+  <tab ID="7" Text="Insurance"/>
+  <tab ID="8" Text="Hire Details"/>
+  <tab ID="9" Text="Attachments"/>
+</tabs>

@@ -1,0 +1,53 @@
+<root>
+  <items>
+    <date>17/08/2021</date>
+    <time>14:04:03</time>
+    <url>http://localhost:64247/ECTest/Master/General/FrmVarnarMaster.aspx?Menu_Item_Id=MwA1ADYA&amp;Mode=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at ClassLibraryMVP.ErrorManager.ErrorHandler.DisplayError(Int32 error_Code)
+   at ClassLibraryMVP.StateManager.GetState[T](String key)
+   at ClassLibraryMVP.Security.Rights.CheckRights()
+   at ClassLibraryMVP.UI.Page.Page_InitComplete()
+   at System.Web.Util.CalliHelper.ArglessFunctionCaller(IntPtr fp, Object o)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Web.UI.Page.OnInitComplete(EventArgs e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>17/08/2021</date>
+    <time>15:01:23</time>
+    <url>http://localhost:64247/ECTest/Master/General/FrmVarnarMaster.aspx?Menu_Item_Id=MwA1ADYA&amp;Mode=MgA=&amp;Id=MQA=</url>
+    <message>System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)
+   at Raj.EC.Common.EC_Common_Pass_Query(String Query) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Common.cs:line 582
+   at Master_Branch_FrmVarnarMaster.FillPayType() in d:\12Apr2021\OMTuranth\ECTest\Master\General\FrmVarnarMaster.aspx.cs:line 74
+   at Master_Branch_FrmVarnarMaster.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Master\General\FrmVarnarMaster.aspx.cs:line 62
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

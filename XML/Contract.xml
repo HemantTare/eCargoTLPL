@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tabs>
+	<tab ID="zero" Text="General"/>
+	<tab ID="one" Text="Terms"/>
+	<tab ID="two" Text="Freight Details"/>
+	<tab ID="three" Text="Attachment"/>
+</tabs>

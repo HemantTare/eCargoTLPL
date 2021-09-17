@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tabs>
+  <tab ID="1" Text="Cleaner"/>
+  <tab ID="2" Text="Cleaner Dependent"/>
+  <tab ID="3" Text="Attachments"/>
+</tabs>

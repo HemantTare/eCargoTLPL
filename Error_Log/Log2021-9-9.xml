@@ -1,0 +1,48 @@
+<root>
+  <items>
+    <date>09/09/2021</date>
+    <time>16:34:07</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmConveyanceVoucher.aspx?Menu_Item_Id=MwA1ADkA&amp;Mode=MgA=&amp;Id=MgA=</url>
+    <message>System.ArgumentNullException: Value cannot be null.
+Parameter name: control
+   at System.Web.UI.Page.SetFocus(Control control)
+   at System.Web.UI.PageWrapper.System.Web.UI.IPage.SetFocus(Control control)
+   at System.Web.UI.PageRequestManager.SetFocus(Control control)
+   at System.Web.UI.ScriptManager.SetFocus(Control control)
+   at Finance_Accounting_Vouchers_FrmConveyanceVoucher.dg_Commodity_EditCommand(Object source, DataGridCommandEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmConveyanceVoucher.aspx.cs:line 406
+   at System.Web.UI.WebControls.DataGrid.OnEditCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>09/09/2021</date>
+    <time>16:35:54</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmConveyanceVoucher.aspx?Menu_Item_Id=MwA1ADkA&amp;Mode=MgA=&amp;Id=MgA=</url>
+    <message>System.ArgumentNullException: Value cannot be null.
+Parameter name: control
+   at System.Web.UI.Page.SetFocus(Control control)
+   at System.Web.UI.PageWrapper.System.Web.UI.IPage.SetFocus(Control control)
+   at System.Web.UI.PageRequestManager.SetFocus(Control control)
+   at System.Web.UI.ScriptManager.SetFocus(Control control)
+   at Finance_Accounting_Vouchers_FrmConveyanceVoucher.dg_Commodity_EditCommand(Object source, DataGridCommandEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmConveyanceVoucher.aspx.cs:line 406
+   at System.Web.UI.WebControls.DataGrid.OnEditCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

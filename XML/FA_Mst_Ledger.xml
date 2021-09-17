@@ -1,0 +1,6 @@
+<tabs>
+  <tab ID="zero" Text="General"/>
+  <tab ID="one" Text="Address"  />
+  <tab ID="two" Text="Division"/>
+  
+</tabs>

@@ -1,0 +1,10 @@
+<tabs>
+	<tab ID="zero" Text="General Details"/>
+	<tab ID="one" Text="TDS/FBT Details"/>
+	<tab ID="Two" Text="Parameters"/>
+	<tab id="Three" Text="Booking Parameters"/>
+	<tab ID="Four" Text="Trip Hire Parameters"/>
+	<tab ID="Five" Text="Delivery"/>
+	<tab ID="Six" Text="Local Collection Voucher"/>
+	<tab ID="Seven" Text="Company Caption"/>
+</tabs>

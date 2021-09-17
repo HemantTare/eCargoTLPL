@@ -1,0 +1,85 @@
+<root>
+  <items>
+    <date>09/08/2021</date>
+    <time>16:36:31</time>
+    <url>http://localhost:64247/ECTest/Grid/frmMstGrid.aspx?Menu_Item_Id=MwA1ADYA&amp;Mode=NAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.RemoveAt(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.RemoveAt(Int32 index)
+   at CommonControls_WucSearch.FillMstGridHeaders(DataGrid dg_Grid) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 94
+   at GridWucMstGrid.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Grid\WucMstGrid.ascx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>09/08/2021</date>
+    <time>16:44:00</time>
+    <url>http://localhost:64247/ECTest/Grid/frmMstGrid.aspx?Menu_Item_Id=MwA1ADYA&amp;Mode=NAA=</url>
+    <message>System.Data.SqlClient.SqlException: Invalid column name 'Pay_Type_Id'.
+Ambiguous column name 'Is_Active'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)
+   at Raj.EC.Common.FillDetailsInGrid(Int32 MenuItemId, String ColName, String SearchText, Boolean IsPageLoad) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Common.cs:line 153
+   at CommonControls_WucSearch.FillGrid(Int32 MenuItemId) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 185
+   at CommonControls_WucSearch.btn_Search_Click(Object sender, ImageClickEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 207
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>09/08/2021</date>
+    <time>16:44:20</time>
+    <url>http://localhost:64247/ECTest/Grid/frmMstGrid.aspx?Menu_Item_Id=MwA1ADYA&amp;Mode=NAA=</url>
+    <message>System.Data.SqlClient.SqlException: Invalid column name 'Pay_Type_Id'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)
+   at Raj.EC.Common.FillDetailsInGrid(Int32 MenuItemId, String ColName, String SearchText, Boolean IsPageLoad) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Common.cs:line 153
+   at CommonControls_WucSearch.FillGrid(Int32 MenuItemId) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 185
+   at CommonControls_WucSearch.btn_Search_Click(Object sender, ImageClickEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 207
+   at System.Web.UI.WebControls.ImageButton.OnClick(ImageClickEventArgs e)
+   at System.Web.UI.WebControls.ImageButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.ImageButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

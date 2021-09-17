@@ -1,0 +1,22 @@
+<root>
+  <items>
+    <date>23/04/2021</date>
+    <time>13:22:10</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmDriverTripAdvance.aspx?Id=MAA=&amp;Menu_Item_Id=MwAxADgA&amp;Mode=MQA=&amp;TripExpenseAprovalID=MgA0AA==&amp;Vehicle_No=TQBIADQAMwBVADUANQAzADQA&amp;Driver_Name=UwBIAFUASwBBAFIAVQBMAEwAQQBIACAASwBIAEEATgA=&amp;Advance=MQAwADAAMAA=</url>
+    <message>System.Web.HttpException: DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Category_Name'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.Bind_BankPaymentType(DataTable dt) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 164
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.FillBankPaymentType() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 154
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 112
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

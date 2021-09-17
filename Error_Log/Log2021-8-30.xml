@@ -1,0 +1,37 @@
+<root>
+  <items>
+    <date>30/08/2021</date>
+    <time>19:05:48</time>
+    <url>http://localhost:64247/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQA=</url>
+    <message>System.ArgumentException: Column 'License_Issue_State_ID' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 105
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter..ctor(IDriverDetailsView DriverDetailsView, Boolean isPostback) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 43
+   at Master_Driver_WucDriverDetails.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 601
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>30/08/2021</date>
+    <time>19:40:34</time>
+    <url>http://localhost:64247/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQA=</url>
+    <message>System.ArgumentException: Column 'VehicleID' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Master_Driver_WucDriverDetails.ddl_License_Issue_State_SelectedIndexChanged(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 623
+   at System.Web.UI.WebControls.ListControl.OnSelectedIndexChanged(EventArgs e)
+   at System.Web.UI.WebControls.DropDownList.RaisePostDataChangedEvent()
+   at System.Web.UI.WebControls.DropDownList.System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent()
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

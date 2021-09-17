@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lhpo_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="LHPO_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Challan_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Challan_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LHPO_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="From" type="xs:string" minOccurs="0" />
+              <xs:element name="Destination" type="xs:string" minOccurs="0" />
+              <xs:element name="Vehicle_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Engine_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Chasis_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner_x0020_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner_x0020_Pan_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="License_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="TDS_Deductee" type="xs:string" minOccurs="0" />
+              <xs:element name="Broker_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Broker_x0020_Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Broker_x0020_Pan_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Charged_x0020_Weight" type="xs:int" minOccurs="0" />
+              <xs:element name="LHPO_Freight_Basis" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_Freight_Basis_Amt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Penalty_x0020_Amount" type="xs:int" minOccurs="0" />
+              <xs:element name="Balance_x0020_Payable_x0020_At" type="xs:string" minOccurs="0" />
+              <xs:element name="Attached_x0020_LHS_x0020_Branches" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_Lorry_x0020_Hire" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Other_x0020_Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Net_x0020_Lorry_x0020_hire" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_x0020_TDS_x0020_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Charity_x0020_Expences" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_x0020_Truck_x0020_Hire" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_x0020_Advance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Net_x0020_Balance_x0020_Amt_x0020_Payable" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="Loaded_x0020_By" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LHPO_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Payable_x0020_At" type="xs:string" minOccurs="0" />
+              <xs:element name="Advance_Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LHPO_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Manifest_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Manifest_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GC_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="GC_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="GC_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Despatched" type="xs:int" minOccurs="0" />
+              <xs:element name="Out_x0020_Of" type="xs:int" minOccurs="0" />
+              <xs:element name="Packing_x0020_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Items" type="xs:string" minOccurs="0" />
+              <xs:element name="From_x0020_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="To_x0020_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Actual_x0020_Weight" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Total_x0020_GC" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Despatched" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Out_x0020_Of" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_Actual_x0020_Weight" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Company_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

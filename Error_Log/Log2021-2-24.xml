@@ -1,0 +1,52 @@
+<root>
+  <items>
+    <date>24/02/2021</date>
+    <time>16:44:30</time>
+    <url>http://localhost:53533/ECTest/Grid/FrmMstGrid.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=NAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.RemoveAt(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.RemoveAt(Int32 index)
+   at CommonControls_WucSearch.FillMstGridHeaders(DataGrid dg_Grid) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\CommonControls\WucSearch.ascx.cs:line 94
+   at GridWucMstGrid.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Grid\WucMstGrid.ascx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>24/02/2021</date>
+    <time>17:09:42</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.InvalidOperationException: A control with ID 'dgGrid' could not be found for the trigger in UpdatePanel 'UpdatePanel'.
+   at System.Web.UI.UpdatePanelControlTrigger.FindTargetControl(Boolean searchNamingContainers)
+   at System.Web.UI.AsyncPostBackTrigger.Initialize()
+   at System.Web.UI.UpdatePanelTriggerCollection.Initialize()
+   at System.Web.UI.UpdatePanel.Initialize()
+   at System.Web.UI.UpdatePanel.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>24/02/2021</date>
+    <time>18:17:01</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.InvalidOperationException: A control with ID 'txt_Party' could not be found for the trigger in UpdatePanel 'UpdatePanelParty'.
+   at System.Web.UI.UpdatePanelControlTrigger.FindTargetControl(Boolean searchNamingContainers)
+   at System.Web.UI.AsyncPostBackTrigger.Initialize()
+   at System.Web.UI.UpdatePanelTriggerCollection.Initialize()
+   at System.Web.UI.UpdatePanel.Initialize()
+   at System.Web.UI.UpdatePanel.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

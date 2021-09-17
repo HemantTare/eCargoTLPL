@@ -1,0 +1,28 @@
+<root>
+  <items>
+    <date>07/04/2021</date>
+    <time>13:08:38</time>
+    <url>http://localhost:53533/ECTest/Operations/Delivery/FrmDirectDelivery.aspx?Menu_Item_Id=OAAzAA==&amp;Mode=MQA=&amp;GCId=MwA2ADUAMwA3ADAA&amp;GCNo=MAA4ADMAOAA1ADQAMAA=&amp;VehicleId=MQA=</url>
+    <message>System.Data.SqlClient.SqlException: @TDS is not a parameter for procedure EC_Opr_Direct_Delivery_Save.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Raj.EC.OperationModel.DirectDeliveryModel.Save() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Operations\Delivery\Model\DirectDeliveryModel.cs:line 217
+   at ClassLibraryMVP.General.Presenter.DBSave()
+   at Raj.EC.OperationPresenter.DirectDeliveryPresenter.save() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Operations\Delivery\Presenter\DirectDeliveryPresenter.cs:line 232
+   at EC_Master_wucDirectDelivery.btn_Save_Exit_Click(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Operations\Delivery\wucDirectDelivery.ascx.cs:line 1104
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

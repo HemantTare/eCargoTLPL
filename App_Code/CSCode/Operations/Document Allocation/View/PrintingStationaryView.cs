@@ -1,0 +1,40 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using ClassLibraryMVP.General;
+using Raj.EC.OperationView; 
+
+/// <summary>
+/// Summary description for PrintingStationaryView
+/// </summary>
+/// 
+namespace Raj.EC.OperationView
+{
+    public interface IPrintingStationaryView : IView
+    {
+        int DocumentTypeID { get;set;}
+        int StartNo { get;set;}
+        int EndNo { get;set;}
+        int Balance { get;}
+        int MinStartNo { get;set;}
+        int MaxEndNo { get;set;}
+        int ParentEndNo { get;set;}
+        int ParentStartNo{ get;set;}
+      //  int PrintedSeriesID { get;set;}
+        int SeriesGenerationID { get;set;}
+        DateTime DateofPrinting { get;set;}
+
+        DataTable Bind_ddl_DocumentType { set;}
+        DataTable Bind_dg_GeneratedSeries { set;}
+        DataTable SessionGeneratedSeries { set;get;}
+
+        void ClearVariables();
+    }
+    
+}

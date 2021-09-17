@@ -1,0 +1,28 @@
+<root>
+  <items>
+    <date>15/05/2021</date>
+    <time>12:23:57</time>
+    <url>http://localhost:64247/ECTest/Grid/frmMstGrid.aspx?Menu_Item_Id=MwA0ADgA&amp;Mode=NAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.RemoveAt(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.RemoveAt(Int32 index)
+   at CommonControls_WucSearch.FillMstGridHeaders(DataGrid dg_Grid) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 94
+   at GridWucMstGrid.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Grid\WucMstGrid.ascx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>15/05/2021</date>
+    <time>12:44:45</time>
+    <url>http://localhost:64247/ECTest/Master/Driver/FrmDriverBankDetails.aspx?Menu_Item_Id=MwA0ADgA&amp;Mode=MgA=&amp;Id=MgAxADcA</url>
+    <message>System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType)</message>
+  </items>
+</root>

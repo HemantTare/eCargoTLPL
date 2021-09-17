@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Voucher_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Ledger_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Voucher_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Voucher_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Voucher_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Narration" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Voucher_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Ledger_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Ledger_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Debit_Credit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OnAccount" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Voucher_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Ledger_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Ledger_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amount_Dtls" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

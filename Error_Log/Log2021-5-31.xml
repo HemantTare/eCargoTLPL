@@ -1,0 +1,74 @@
+<root>
+  <items>
+    <date>31/05/2021</date>
+    <time>11:11:04</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmDriverTripAdvance.aspx?Menu_Item_Id=MwAxADgA&amp;Mode=MgA=&amp;Id=OQA2ADgAMgA=</url>
+    <message>System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at System.Convert.ToDateTime(String value)
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 330
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 173
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>31/05/2021</date>
+    <time>19:11:52</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.IndexOutOfRangeException: There is no row at position -1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.RBTree`1.get_Item(Int32 index)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 629
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Bind_dg_GridAdvanceDetails() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 613
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 525
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 309
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>31/05/2021</date>
+    <time>19:40:39</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.Data.SqlClient.SqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByte()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 414
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 309
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

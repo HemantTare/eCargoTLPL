@@ -1,0 +1,26 @@
+<root>
+  <items>
+    <date>18/08/2021</date>
+    <time>12:12:00</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmVaraiPayment.aspx?Menu_Item_Id=MwA1ADcA&amp;Mode=MQA=</url>
+    <message>System.Data.SqlClient.SqlException: Procedure or function 'FA_Opr_Varai_Payment_Save' expects parameter '@Beneficiary_Name', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Finance_Accounting_Vouchers_FrmVaraiPayment.Save() in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmVaraiPayment.aspx.cs:line 303
+   at Finance_Accounting_Vouchers_FrmVaraiPayment.btn_Save_Exit_Click(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmVaraiPayment.aspx.cs:line 265
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

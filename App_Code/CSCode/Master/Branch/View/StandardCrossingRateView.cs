@@ -1,0 +1,37 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using ClassLibraryMVP.General;
+using Raj.EC.MasterView;
+
+/// <summary>
+/// Summary description for StandardCrossingRateView
+/// </summary>
+/// 
+namespace Raj.EC.MasterView
+{
+    public interface IStandardCrossingRateView : IView
+    {
+        int BranchID { get;set;}
+        int ToBranchID { get;set;} 
+        int AreaID { get;set;}
+        int DistanceInKM { get;set;}
+        decimal HireRate { get;set;}
+        decimal Hamali { get;set;}
+        decimal Total { get;set;}
+        int FreightID { get;set;}
+
+        DataTable Bind_ddl_Branch { set;}
+        DataTable Bind_ddl_Area { set;}
+        DataTable Bind_dg_StandardCrossingRate { set;}
+        DataTable SessionStandardCrossingRateGrid { set;get;}
+
+    }
+    
+}

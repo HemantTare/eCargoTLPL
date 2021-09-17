@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tabs>
+	<tab ID="zero" Text="Hire Details"/>
+	<tab ID="one" Text="Attached LHPO Branches"/>
+	<tab ID="two" Text="ATH Payble / Alerts Branches"/>
+	<tab ID="three" Text="Incentives /Penalties"/>	
+</tabs>

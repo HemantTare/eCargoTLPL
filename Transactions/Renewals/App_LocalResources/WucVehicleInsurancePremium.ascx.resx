@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_SaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btn_SaveResource1.ToolTip" xml:space="preserve">
+    <value>Click here to Save</value>
+  </data>
+  <data name="ddl_AgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_Bank_NameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_InsuranceCompanyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_IssuingBranchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_PremiumTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_PremiumTypeResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_PremiumDetailsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_PremiumDetailsResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dg_PremiumDetailsResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dg_PremiumDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EditCommandColumnResource1.CancelText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="EditCommandColumnResource1.EditText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EditCommandColumnResource1.UpdateText" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Fields with * Mark are Mandatory</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_AgentResource1.Text" xml:space="preserve">
+    <value>Agent :</value>
+  </data>
+  <data name="lbl_AgentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Amount_FPPResource1.Text" xml:space="preserve">
+    <value>Amount :</value>
+  </data>
+  <data name="lbl_Amount_FPPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Amount_TPPResource1.Text" xml:space="preserve">
+    <value>Amount :</value>
+  </data>
+  <data name="lbl_Amount_TPPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_BankNameResource1.Text" xml:space="preserve">
+    <value>Bank Name :</value>
+  </data>
+  <data name="lbl_BankNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ChequeDateResource1.Text" xml:space="preserve">
+    <value>Cheque Date :</value>
+  </data>
+  <data name="lbl_ChequeDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ChequeNoResource1.Text" xml:space="preserve">
+    <value>Cheque No :</value>
+  </data>
+  <data name="lbl_ChequeNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Client_ErrorsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Client_ErrorsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Commence_DateResource1.Text" xml:space="preserve">
+    <value>Commence Date :</value>
+  </data>
+  <data name="lbl_Commence_DateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Expiry_DateResource1.Text" xml:space="preserve">
+    <value>Expiry Date :</value>
+  </data>
+  <data name="lbl_Expiry_DateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_First_Party_PremiumResource1.Text" xml:space="preserve">
+    <value>First Party Premium :</value>
+  </data>
+  <data name="lbl_First_Party_PremiumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_FPPAmountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_FPPAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_HeadingResource1.Text" xml:space="preserve">
+    <value>VEHICLE INSURANCE PREMIUM</value>
+  </data>
+  <data name="lbl_HeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_IDVResource1.Text" xml:space="preserve">
+    <value>IDV :</value>
+  </data>
+  <data name="lbl_IDVResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Insurance_CompanyResource1.Text" xml:space="preserve">
+    <value>Insurance Company :</value>
+  </data>
+  <data name="lbl_Insurance_CompanyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Issuing_BranchResource1.Text" xml:space="preserve">
+    <value>Issuing Branch :</value>
+  </data>
+  <data name="lbl_Issuing_BranchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Loading_FPP_PercentResource1.Text" xml:space="preserve">
+    <value>Loading FPP % :</value>
+  </data>
+  <data name="lbl_Loading_FPP_PercentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Loading_TPP_PercentResource1.Text" xml:space="preserve">
+    <value>Loading TPP % :</value>
+  </data>
+  <data name="lbl_Loading_TPP_PercentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NCB_AmountResource1.Text" xml:space="preserve">
+    <value>NCB Amt :</value>
+  </data>
+  <data name="lbl_NCB_AmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NCB_Percent_On_FPPResource1.Text" xml:space="preserve">
+    <value>NCB % on FPP :</value>
+  </data>
+  <data name="lbl_NCB_Percent_On_FPPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NCBAmountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_NCBAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Net_PayableResource1.Text" xml:space="preserve">
+    <value>Net Payable :</value>
+  </data>
+  <data name="lbl_Net_PayableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Net_PremiumResource1.Text" xml:space="preserve">
+    <value>Net Premium :</value>
+  </data>
+  <data name="lbl_Net_PremiumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NetPayableResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NetPayableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NetPremiumResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_NetPremiumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Policy_NoResource1.Text" xml:space="preserve">
+    <value>Policy No :</value>
+  </data>
+  <data name="lbl_Policy_NoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Service_Tax_12_36_PercentResource1.Text" xml:space="preserve">
+    <value>Service Tax 12.36% :</value>
+  </data>
+  <data name="lbl_Service_Tax_12_36_PercentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ServiceTaxResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ServiceTaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Third_Party_PremiumResource1.Text" xml:space="preserve">
+    <value>Third Party Premium :</value>
+  </data>
+  <data name="lbl_Third_Party_PremiumResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TPPAmountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_TPPAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_AddResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbtn_AddResource1.ToolTip" xml:space="preserve">
+    <value>Click here to Add</value>
+  </data>
+  <data name="lbtn_DeleteResource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbtn_DeleteResource1.ToolTip" xml:space="preserve">
+    <value>Click here to Delete</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Cash</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Cheque</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Msg_AgentID" xml:space="preserve">
+    <value>Please Select Agent</value>
+  </data>
+  <data name="Msg_Bank" xml:space="preserve">
+    <value>Please Select Bank</value>
+  </data>
+  <data name="Msg_ChequeDate" xml:space="preserve">
+    <value>Cheque Date can't be less than Insurance date</value>
+  </data>
+  <data name="Msg_ChequeDateGreaterCommenceDate" xml:space="preserve">
+    <value>Cheque Date Must be Within three Months after the Insurance Commencement Date</value>
+  </data>
+  <data name="Msg_ChequeDateLessCommenceDate" xml:space="preserve">
+    <value>Cheque Date Must be Within three Months before the Insurance Commencement Date</value>
+  </data>
+  <data name="Msg_ChequeNo" xml:space="preserve">
+    <value>Please Enter Cheque No</value>
+  </data>
+  <data name="Msg_ChequeNoLength" xml:space="preserve">
+    <value>Cheque No Must be greater than 5 digit</value>
+  </data>
+  <data name="Msg_CommenceDate" xml:space="preserve">
+    <value>Commence Date should not be less than</value>
+  </data>
+  <data name="Msg_Correct Engine No" xml:space="preserve">
+    <value>Please Enter Correct Engine No</value>
+  </data>
+  <data name="Msg_CorrectChasisNo" xml:space="preserve">
+    <value>Please Enter Correct Chasis No</value>
+  </data>
+  <data name="Msg_Dg_ddl_PremiumType" xml:space="preserve">
+    <value>Please Select Premium Type</value>
+  </data>
+  <data name="Msg_DuplicatePremium" xml:space="preserve">
+    <value>Dulpicate Premium Type</value>
+  </data>
+  <data name="Msg_EngineNo" xml:space="preserve">
+    <value>Please Enter Engine No</value>
+  </data>
+  <data name="Msg_ExpiryDate" xml:space="preserve">
+    <value>Expiry Date can't be less than Commnece Date</value>
+  </data>
+  <data name="Msg_IDV" xml:space="preserve">
+    <value>Please Enter IDV</value>
+  </data>
+  <data name="Msg_InsuPremiumDate" xml:space="preserve">
+    <value>Invalid Vehicle Insurance Premium Date</value>
+  </data>
+  <data name="Msg_InsuranceCompanyID" xml:space="preserve">
+    <value>Please Select Insurance Company</value>
+  </data>
+  <data name="Msg_IssuingBranchID" xml:space="preserve">
+    <value>Please Select Issuing Branch</value>
+  </data>
+  <data name="Msg_PolicyNo" xml:space="preserve">
+    <value>Please Enter Policy No</value>
+  </data>
+  <data name="Msg_ThirdPartyPremium" xml:space="preserve">
+    <value>Please Enter Third Party Premium</value>
+  </data>
+  <data name="Msg_txt_Amount" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="Msg_txt_ChasisNo" xml:space="preserve">
+    <value>Please Enter Chasis No</value>
+  </data>
+  <data name="Msg_VehicleTypeID" xml:space="preserve">
+    <value>Please Select Vehicle</value>
+  </data>
+  <data name="PaidByResource1.Text" xml:space="preserve">
+    <value>Paid By:</value>
+  </data>
+  <data name="PaidByResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnl_InsuranceResource1.GroupingText" xml:space="preserve">
+    <value>Insurance Details</value>
+  </data>
+  <data name="pnl_InsuranceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdl_Paid_ByResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="txt_AmountResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="txt_Cheque_NoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_Cheque_NoResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Cheque No</value>
+  </data>
+  <data name="txt_FPPremiumResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_FPPremiumResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter First Party Premium</value>
+  </data>
+  <data name="txt_IDVResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_IDVResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter IDV</value>
+  </data>
+  <data name="txt_LoadingFPPResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_LoadingFPPResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Loading FPP</value>
+  </data>
+  <data name="txt_LoadingTPPResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_LoadingTPPResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Loading TPP</value>
+  </data>
+  <data name="txt_NCBFPPResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_NCBFPPResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter NCBFPP</value>
+  </data>
+  <data name="txt_PolicyNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PolicyNoResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Policy No</value>
+  </data>
+  <data name="txt_TPPremiumResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_TPPremiumResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Third Party Premium </value>
+  </data>
+</root>

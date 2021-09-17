@@ -1,0 +1,142 @@
+<root>
+  <items>
+    <date>27/07/2021</date>
+    <time>13:44:56</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTempoPayment.aspx?Menu_Item_Id=MgA5ADUA&amp;Mode=MgA=&amp;Id=OAA0ADkANgA5ADMA</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at ClassLibrary.UIControl.DDLSearch.set_SelectedValue(String value)
+   at Finance_Accounting_Vouchers_TempoPayment.set_LedgerId(Int32 value) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTempoPayment.ascx.cs:line 72
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.readValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 55
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 38
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter..ctor(ITempoPaymentView TempoPaymentView, Boolean IsPostBack) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 30
+   at Finance_Accounting_Vouchers_TempoPayment.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTempoPayment.ascx.cs:line 251
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>27/07/2021</date>
+    <time>13:59:34</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTempoPayment.aspx?Menu_Item_Id=MgA5ADUA&amp;Mode=MgA=&amp;Id=OAA0ADkANgA5ADMA</url>
+    <message>System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.readValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 57
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 38
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter..ctor(ITempoPaymentView TempoPaymentView, Boolean IsPostBack) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 30
+   at Finance_Accounting_Vouchers_TempoPayment.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTempoPayment.ascx.cs:line 251
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>27/07/2021</date>
+    <time>14:00:03</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTempoPayment.aspx?Menu_Item_Id=MgA5ADUA&amp;Mode=MgA=&amp;Id=OAA0ADkANgA5ADMA</url>
+    <message>System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.readValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 57
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 38
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter..ctor(ITempoPaymentView TempoPaymentView, Boolean IsPostBack) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 30
+   at Finance_Accounting_Vouchers_TempoPayment.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTempoPayment.ascx.cs:line 251
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>27/07/2021</date>
+    <time>14:03:04</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTempoPayment.aspx?Menu_Item_Id=MgA5ADUA&amp;Mode=MgA=&amp;Id=OAA0ADkANgA5ADMA</url>
+    <message>System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.readValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 60
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 38
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter..ctor(ITempoPaymentView TempoPaymentView, Boolean IsPostBack) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 30
+   at Finance_Accounting_Vouchers_TempoPayment.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTempoPayment.ascx.cs:line 251
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>27/07/2021</date>
+    <time>15:50:36</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTempoPayment.aspx?Menu_Item_Id=MgA5ADUA&amp;Mode=MgA=&amp;Id=OAA0ADkANgA5ADQA</url>
+    <message>System.Data.SqlClient.SqlException: Invalid object name 'FA_Opr_Voucher_Deails'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Raj.EC.FinanceModel.TempoPaymentModel.Save() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Model\TempoPaymentModel.cs:line 93
+   at ClassLibraryMVP.General.Presenter.DBSave()
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.Save() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 90
+   at Finance_Accounting_Vouchers_TempoPayment.btn_SaveExit_Click(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTempoPayment.ascx.cs:line 302
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>27/07/2021</date>
+    <time>20:06:53</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTempoPayment.aspx?Menu_Item_Id=MgA5ADUA&amp;Mode=NAA=</url>
+    <message>System.Data.SqlClient.SqlException: Could not find stored procedure 'EC_FA_Opr_Payment_To_TempoOwner_ReadValues'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)
+   at Raj.EC.FinanceModel.TempoPaymentModel.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Model\TempoPaymentModel.cs:line 60
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.readValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 47
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 38
+   at Raj.EC.FinancePresenter.TempoPaymentPresenter..ctor(ITempoPaymentView TempoPaymentView, Boolean IsPostBack) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TempoPaymentPresenter.cs:line 30
+   at Finance_Accounting_Vouchers_TempoPayment.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTempoPayment.ascx.cs:line 252
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

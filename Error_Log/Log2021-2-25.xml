@@ -1,0 +1,19 @@
+<root>
+  <items>
+    <date>25/02/2021</date>
+    <time>17:50:33</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at ClassLibraryMVP.Util.String2Bool(String val)
+   at Master_Sales_FrmClientRateContract.Save() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 143
+   at Master_Sales_FrmClientRateContract.btnSave_Click(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 131
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Bill_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="GC_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Client_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Bill_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="Bill_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GC_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GC_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="Consignor_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Consignee_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="From_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="To_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Actual_Weight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="GC_Sub_Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GC_Service_Tax_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Packing_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="GC_Remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="Booking_Type_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Vehicle_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Container_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Oct_Receipt_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Octroi_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Oct_Form_Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Oct_Service_Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Less_Advance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Bill_Total_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Grand_Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Is_Service_Tax_Applicable" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Service_Tax_Percent" type="xs:int" minOccurs="0" />
+              <xs:element name="Bill_Sub_Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Taxable_Service_Amount" type="xs:double" minOccurs="0" />
+              <xs:element name="Service_Tax_Payable" type="xs:double" minOccurs="0" />
+              <xs:element name="Education_Cess" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_Service_Tax_Payable" type="xs:double" minOccurs="0" />
+              <xs:element name="Print_Service_Tax_On_Bill" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Bill_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="GC_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="GC_Other_Charge_Head" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

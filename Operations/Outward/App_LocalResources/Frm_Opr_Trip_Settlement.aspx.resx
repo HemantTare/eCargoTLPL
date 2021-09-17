@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_SaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btn_SaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IsCashResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IsCashResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IsCashResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IsCashResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IsCashResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IsCashResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IsCashResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chk_IsCashResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_DriverResource1.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchDriverName</value>
+  </data>
+  <data name="ddl_DriverResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_ExpenseHeadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_ExpenseHeadResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_FromBranchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_FromBranchResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_PumpResource1.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchVendor</value>
+  </data>
+  <data name="ddl_PumpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_PumpResource2.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchVendor</value>
+  </data>
+  <data name="ddl_PumpResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_PumpResource3.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchVendor</value>
+  </data>
+  <data name="ddl_PumpResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_PumpResource4.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetSearchVendor</value>
+  </data>
+  <data name="ddl_PumpResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_ToBranchResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_ToBranchResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_TripExpenseResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_TripExpenseResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dg_TripExpenseResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dg_TripExpenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_TripFuelDetailsResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_TripFuelDetailsResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dg_TripFuelDetailsResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dg_TripFuelDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_TripFuelDetailsResource2.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_TripFuelDetailsResource2.PagerStyle.NextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dg_TripFuelDetailsResource2.PagerStyle.PrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dg_TripFuelDetailsResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_TripHireChallansResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_TripHireChallansResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dg_TripHireChallansResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dg_TripHireChallansResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_FuelDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_FuelDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_FuelDateResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_FuelDateResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_THCDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_THCDateResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtp_TripSettleDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_CBcrdrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_CBcrdrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Diesel_CashResource1.Text" xml:space="preserve">
+    <value>Diesel Cash :</value>
+  </data>
+  <data name="lbl_Diesel_CashResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Diesel_CreditResource1.Text" xml:space="preserve">
+    <value>Diesel Credit :</value>
+  </data>
+  <data name="lbl_Diesel_CreditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DieselCashResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl_DieselCashResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DieselCreditResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl_DieselCreditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Driver_ClosingBalanceResource1.Text" xml:space="preserve">
+    <value>Driver Closing Balance :</value>
+  </data>
+  <data name="lbl_Driver_ClosingBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Driver_Opening_BalanceResource1.Text" xml:space="preserve">
+    <value>Driver Opening Balance :</value>
+  </data>
+  <data name="lbl_Driver_Opening_BalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DriverClosingBalanceResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl_DriverClosingBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DriverOpeningBalanceResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl_DriverOpeningBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DriverResource1.Text" xml:space="preserve">
+    <value>Driver :</value>
+  </data>
+  <data name="lbl_DriverResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_End_KmsResource1.Text" xml:space="preserve">
+    <value>End Kms :</value>
+  </data>
+  <data name="lbl_End_KmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_EndKmsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_EndKmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.Text" xml:space="preserve">
+    <value>Fields with * mark are mandatory</value>
+  </data>
+  <data name="lbl_ErrorsResource1.Text1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.Text2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.Text3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.ToolTip2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.ToolTip3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_HeadingResource1.Text" xml:space="preserve">
+    <value>TRIP SETTLEMENT</value>
+  </data>
+  <data name="lbl_HeadingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_HireChallanDetailsResource1.Text" xml:space="preserve">
+    <value>Hire Challan Details</value>
+  </data>
+  <data name="lbl_HireChallanDetailsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Kms_RunResource1.Text" xml:space="preserve">
+    <value>Kms Run :</value>
+  </data>
+  <data name="lbl_Kms_RunResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_KmsRunResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_KmsRunResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_KmsRunResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_KmsRunResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_OBcrdrResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_OBcrdrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Start_KmsResource1.Text" xml:space="preserve">
+    <value>Start Kms :</value>
+  </data>
+  <data name="lbl_Start_KmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_StartKmsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_StartKmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_AdvanceResource1.Text" xml:space="preserve">
+    <value>Total Advance :</value>
+  </data>
+  <data name="lbl_Total_AdvanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Hire_AmountResource1.Text" xml:space="preserve">
+    <value>Total Hire Amount :</value>
+  </data>
+  <data name="lbl_Total_Hire_AmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_Trip_CostResource1.Text" xml:space="preserve">
+    <value>Total Trip Cost :</value>
+  </data>
+  <data name="lbl_Total_Trip_CostResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalAdvanceResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl_TotalAdvanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalBookingFreightResource1.Text" xml:space="preserve">
+    <value>Total Booking Freight :</value>
+  </data>
+  <data name="lbl_TotalBookingFreightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalHireAmountResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl_TotalHireAmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalKmsRunResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalKmsRunResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_TotalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalResource2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_TotalResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalResource3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_TotalResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalResource4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_TotalResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalTripCostResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl_TotalTripCostResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Trip_ExpenseResource1.Text" xml:space="preserve">
+    <value>Trip Expense :</value>
+  </data>
+  <data name="lbl_Trip_ExpenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TripEndDateResource1.Text" xml:space="preserve">
+    <value>Trip End Date :</value>
+  </data>
+  <data name="lbl_TripEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TripExpenseResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="lbl_TripExpenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TripSettlementDateResource1.Text" xml:space="preserve">
+    <value>Trip Settlement Date :</value>
+  </data>
+  <data name="lbl_TripSettlementDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TripSettlementNoResource1.Text" xml:space="preserve">
+    <value>Trip Settlement No :</value>
+  </data>
+  <data name="lbl_TripSettlementNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TripStartDateResource1.Text" xml:space="preserve">
+    <value>Trip Start Date :</value>
+  </data>
+  <data name="lbl_TripStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_VehicleNoResource1.Text" xml:space="preserve">
+    <value>Vehicle No :</value>
+  </data>
+  <data name="lbl_VehicleNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_AddResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbtn_AddResource1.Text1" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbtn_AddResource1.Text2" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbtn_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_AddResource1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_AddResource1.ToolTip2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_AddResource2.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbtn_AddResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_DeleteResource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbtn_DeleteResource1.Text1" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbtn_DeleteResource1.Text2" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbtn_DeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_DeleteResource1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_DeleteResource1.ToolTip2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_DeleteResource2.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbtn_DeleteResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MP_TripSettlementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Msg_AdvanceAmount" xml:space="preserve">
+    <value>Advance Amount Can not be Greater Than Hire Amount</value>
+  </data>
+  <data name="Msg_Amount" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="Msg_Description" xml:space="preserve">
+    <value>Please Enter Description</value>
+  </data>
+  <data name="Msg_DriverId" xml:space="preserve">
+    <value>Please Select Driver</value>
+  </data>
+  <data name="Msg_Duplicate" xml:space="preserve">
+    <value>Duplicate Expense Head</value>
+  </data>
+  <data name="Msg_DuplicateBranch" xml:space="preserve">
+    <value>Duplicate From Branch and To Branch</value>
+  </data>
+  <data name="Msg_EndKm" xml:space="preserve">
+    <value>Please Enter End KM</value>
+  </data>
+  <data name="Msg_EndKmValid" xml:space="preserve">
+    <value>End KM can't be less than Start KM</value>
+  </data>
+  <data name="Msg_ExpenseHead" xml:space="preserve">
+    <value>Please Select Expense Head</value>
+  </data>
+  <data name="Msg_FromBranch" xml:space="preserve">
+    <value>Please Select From Branch</value>
+  </data>
+  <data name="Msg_FuelDateTEDValid" xml:space="preserve">
+    <value>Fuel Date Can't be greater than Trip End Date</value>
+  </data>
+  <data name="Msg_FuelDateTSDTED" xml:space="preserve">
+    <value>Fuel Date Can't be less than Trip Start Date and greater than Trip End Date</value>
+  </data>
+  <data name="Msg_FuelDateTSDValid" xml:space="preserve">
+    <value>Fuel Date Can't be less than Trip Start Date</value>
+  </data>
+  <data name="Msg_FuelOil" xml:space="preserve">
+    <value>Please Enter Fuel/Oil Amount</value>
+  </data>
+  <data name="Msg_HireAmount" xml:space="preserve">
+    <value>Please Enter Hire Amount</value>
+  </data>
+  <data name="Msg_Memoslipno" xml:space="preserve">
+    <value>Please Enter Memo No/Slip No</value>
+  </data>
+  <data name="Msg_OilAmt" xml:space="preserve">
+    <value>Total Amount Can't be Zero</value>
+  </data>
+  <data name="Msg_OnKms" xml:space="preserve">
+    <value>Please Enter On Kms</value>
+  </data>
+  <data name="Msg_Place" xml:space="preserve">
+    <value>Please Enter Place</value>
+  </data>
+  <data name="Msg_Pump" xml:space="preserve">
+    <value>Please Select Pump</value>
+  </data>
+  <data name="Msg_Qty" xml:space="preserve">
+    <value>Please Enter Quantity</value>
+  </data>
+  <data name="Msg_Rate" xml:space="preserve">
+    <value>Please Enter Rate</value>
+  </data>
+  <data name="Msg_RunKms" xml:space="preserve">
+    <value>Run KMs should be greater than Zero</value>
+  </data>
+  <data name="Msg_SettlementDate" xml:space="preserve">
+    <value>Please Select Valid Trip Settlement Date</value>
+  </data>
+  <data name="Msg_SettlementNo" xml:space="preserve">
+    <value>Please Enter Trip Settlement No</value>
+  </data>
+  <data name="Msg_StartKm" xml:space="preserve">
+    <value>Please Enter Start KM</value>
+  </data>
+  <data name="Msg_StartKmValidation" xml:space="preserve">
+    <value>Start Km must be greater then</value>
+  </data>
+  <data name="Msg_THCDate" xml:space="preserve">
+    <value>Trip Memo Date Can't be less than Trip Start Date and greater than Trip End Date</value>
+  </data>
+  <data name="Msg_ToBranch" xml:space="preserve">
+    <value>Please Select To Branch</value>
+  </data>
+  <data name="Msg_Total_Trip_Cost" xml:space="preserve">
+    <value>Total Trip Cost Can not be 0</value>
+  </data>
+  <data name="Msg_Trip_End_Date" xml:space="preserve">
+    <value>Trip End Date Can Not Be Greater Than Settlement Date</value>
+  </data>
+  <data name="Msg_Trip_Memo_End_Date" xml:space="preserve">
+    <value>Trip Memo Date Can not be Greaterthan Trip End Date</value>
+  </data>
+  <data name="Msg_Trip_Memo_Start_Date" xml:space="preserve">
+    <value>Trip Memo Date Can not be Lessthan Trip Start Date</value>
+  </data>
+  <data name="Msg_Trip_StartDate" xml:space="preserve">
+    <value>Trip Start Date Can not be Greater Than Trip End Date</value>
+  </data>
+  <data name="Msg_TripEndDate" xml:space="preserve">
+    <value>Trip Memo Date Can't be greater than Trip End Date</value>
+  </data>
+  <data name="Msg_TripHireCount" xml:space="preserve">
+    <value>Please Enter Trip Hire Challans Details</value>
+  </data>
+  <data name="Msg_TripStartDate" xml:space="preserve">
+    <value>Trip Start Date Can Not be greater Than Trip End Date</value>
+  </data>
+  <data name="Msg_TripStartDate1" xml:space="preserve">
+    <value>Trip Date Can't be less than Trip Start Date</value>
+  </data>
+  <data name="Msg_txtPump" xml:space="preserve">
+    <value>Please Enter Pump Name</value>
+  </data>
+  <data name="Msg_VehicleID" xml:space="preserve">
+    <value>Please Select Vehicle</value>
+  </data>
+  <data name="Msg_VehicleOnRoadDate" xml:space="preserve">
+    <value>Trip Start Date can't be less than Settlement Date</value>
+  </data>
+  <data name="TB_TripSettlementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AdvanceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AdvanceResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Advance</value>
+  </data>
+  <data name="txt_AdvanceResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AdvanceResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Advance</value>
+  </data>
+  <data name="txt_AmountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="txt_AmountResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="txt_DescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_DescriptionResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Description</value>
+  </data>
+  <data name="txt_DescriptionResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_DescriptionResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Description</value>
+  </data>
+  <data name="txt_EndKmsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_EndKmsResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter End Kms</value>
+  </data>
+  <data name="txt_EndKmsResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_EndKmsResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter End Kms</value>
+  </data>
+  <data name="txt_FuelAmountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_FuelAmountResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Fuel Amount</value>
+  </data>
+  <data name="txt_FuelAmountResource2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_FuelAmountResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Fuel Amount</value>
+  </data>
+  <data name="txt_FuelAmountResource3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_FuelAmountResource3.ToolTip" xml:space="preserve">
+    <value>Please Enter Fuel Amount</value>
+  </data>
+  <data name="txt_FuelAmountResource4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_FuelAmountResource4.ToolTip" xml:space="preserve">
+    <value>Please Enter Fuel Amount</value>
+  </data>
+  <data name="txt_HireAmountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_HireAmountResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Hire Amount</value>
+  </data>
+  <data name="txt_HireAmountResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_HireAmountResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Hire Amount</value>
+  </data>
+  <data name="txt_MemoSlipNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_MemoSlipNoResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Memo Slip No</value>
+  </data>
+  <data name="txt_MemoSlipNoResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_MemoSlipNoResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Memo Slip No</value>
+  </data>
+  <data name="txt_MemoSlipNoResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_MemoSlipNoResource3.ToolTip" xml:space="preserve">
+    <value>Please Enter Memo Slip No</value>
+  </data>
+  <data name="txt_MemoSlipNoResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_MemoSlipNoResource4.ToolTip" xml:space="preserve">
+    <value>Please Enter Memo Slip No</value>
+  </data>
+  <data name="txt_OilAmountResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_OilAmountResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Oil Amount</value>
+  </data>
+  <data name="txt_OilAmountResource2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_OilAmountResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Oil Amount</value>
+  </data>
+  <data name="txt_OilAmountResource3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_OilAmountResource3.ToolTip" xml:space="preserve">
+    <value>Please Enter Oil Amount</value>
+  </data>
+  <data name="txt_OilAmountResource4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_OilAmountResource4.ToolTip" xml:space="preserve">
+    <value>Please Enter Oil Amount</value>
+  </data>
+  <data name="txt_OnKmsResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_OnKmsResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter On Kms</value>
+  </data>
+  <data name="txt_OnKmsResource2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_OnKmsResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter On Kms</value>
+  </data>
+  <data name="txt_OnKmsResource3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_OnKmsResource3.ToolTip" xml:space="preserve">
+    <value>Please Enter On Kms</value>
+  </data>
+  <data name="txt_OnKmsResource4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_OnKmsResource4.ToolTip" xml:space="preserve">
+    <value>Please Enter On Kms</value>
+  </data>
+  <data name="txt_PlaceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PlaceResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Place</value>
+  </data>
+  <data name="txt_PlaceResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PlaceResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Place</value>
+  </data>
+  <data name="txt_PlaceResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PlaceResource3.ToolTip" xml:space="preserve">
+    <value>Please Enter Place</value>
+  </data>
+  <data name="txt_PlaceResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PlaceResource4.ToolTip" xml:space="preserve">
+    <value>Please Enter Place</value>
+  </data>
+  <data name="txt_PumpResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PumpResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Pump</value>
+  </data>
+  <data name="txt_PumpResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PumpResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Pump</value>
+  </data>
+  <data name="txt_PumpResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PumpResource3.ToolTip" xml:space="preserve">
+    <value>Please Enter Pump</value>
+  </data>
+  <data name="txt_PumpResource4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_PumpResource4.ToolTip" xml:space="preserve">
+    <value>Please Enter Pump</value>
+  </data>
+  <data name="txt_QtyResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_QtyResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Qty</value>
+  </data>
+  <data name="txt_QtyResource2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_QtyResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Qty</value>
+  </data>
+  <data name="txt_QtyResource3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_QtyResource3.ToolTip" xml:space="preserve">
+    <value>Please Enter Qty</value>
+  </data>
+  <data name="txt_QtyResource4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_QtyResource4.ToolTip" xml:space="preserve">
+    <value>Please Enter Qty</value>
+  </data>
+  <data name="txt_RateResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_RateResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Rate</value>
+  </data>
+  <data name="txt_RateResource2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_RateResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Rate</value>
+  </data>
+  <data name="txt_RateResource3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_RateResource3.ToolTip" xml:space="preserve">
+    <value>Please Enter Rate</value>
+  </data>
+  <data name="txt_RateResource4.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txt_RateResource4.ToolTip" xml:space="preserve">
+    <value>Please Enter Rate</value>
+  </data>
+  <data name="txt_StartKmsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_StartKmsResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Start Kms</value>
+  </data>
+  <data name="txt_StartKmsResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_StartKmsResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Start Kms</value>
+  </data>
+  <data name="txt_THCNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_THCNoResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Trip Memo No</value>
+  </data>
+  <data name="txt_THCNoResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_THCNoResource2.ToolTip" xml:space="preserve">
+    <value>Please Enter Trip Memo No</value>
+  </data>
+  <data name="txt_TotalBookingFreightResource1.Text" xml:space="preserve">
+    <value>0.00</value>
+  </data>
+  <data name="txt_TotalBookingFreightResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Total Booking Freight</value>
+  </data>
+  <data name="txt_TripSettlementNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_TripSettlementNoResource1.ToolTip" xml:space="preserve">
+    <value>Please Enter Trip Settlement No </value>
+  </data>
+</root>

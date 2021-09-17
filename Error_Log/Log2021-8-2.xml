@@ -1,0 +1,38 @@
+<root>
+  <items>
+    <date>02/08/2021</date>
+    <time>16:38:56</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmTransportBill.aspx?Menu_Item_Id=MQA0ADMA&amp;Mode=MQA=</url>
+    <message>System.Data.SqlClient.SqlException: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The network connection was aborted by the local system.)
+Warning: Null value is eliminated by an aggregate or other SET operation.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSni(DbAsyncResult asyncResult, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParserStateObject.ReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.ReadBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.ReadByteArray(Byte[] buff, Int32 offset, Int32 len)
+   at System.Data.SqlClient.TdsParser.SkipBytes(Int32 num, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.SkipValue(SqlMetaDataPriv md, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.SkipRow(_SqlMetaDataSet columns, Int32 startCol, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.SkipRow(_SqlMetaDataSet columns, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Raj.EC.FinanceModel.TransportBillModel.Save() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Model\TransportBillModel.cs:line 128
+   at ClassLibraryMVP.General.Presenter.DBSave()
+   at Raj.EC.FinancePresenter.TransportBillPresenter.Save() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\TransportBillPresenter.cs:line 138
+   at Finance_Accounting_Vouchers_WucTransportBill.btn_Save_Click(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\WucTransportBill.ascx.cs:line 1308
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+			  <xs:element name="Heading" type="xs:string" minOccurs="0" />
+			  <xs:element name="Actual_Unloading_Sheet_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Branch_x0020_Office" type="xs:string" minOccurs="0" />
+              <xs:element name="Goods_x0020_Received_x0020_from_x0020_Ms" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_x0020_GC_x0020_Note" type="xs:int" minOccurs="0" />
+              <xs:element name="Vide_x0020_Challan_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Dt" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Pkgs" type="xs:int" minOccurs="0" />
+              <xs:element name="Pkgs_x0020_Received" type="xs:int" minOccurs="0" />
+              <xs:element name="Lorry_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="AUS_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="AUS_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Goods_x0020_Delivery" type="xs:int" minOccurs="0" />
+              <xs:element name="Upcountry_x0020_Receivable" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_x0020_A" type="xs:int" minOccurs="0" />
+              <xs:element name="Balance" type="xs:int" minOccurs="0" />
+              <xs:element name="In_x0020_Account_x0020_Of" type="xs:string" minOccurs="0" />
+              <xs:element name="Service_x0020_Charge" type="xs:int" minOccurs="0" />
+              <xs:element name="Upcountry_x0020_Crossing_x0020_Cost" type="xs:int" minOccurs="0" />
+              <xs:element name="Truck_x0020_Hire_x0020_Freight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Other_x0020_Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_x0020_B" type="xs:int" minOccurs="0" />
+              <xs:element name="Remarks" type="xs:string" minOccurs="0" />
+			  <xs:element name="Created_by" type="xs:string" minOccurs="0" />
+			</xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Actual_Unloading_Sheet_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Destination" type="xs:string" minOccurs="0" />
+              <xs:element name="Pkgs" type="xs:int" minOccurs="0" />
+              <xs:element name="Weight" type="xs:int" minOccurs="0" />
+              <xs:element name="Rate" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

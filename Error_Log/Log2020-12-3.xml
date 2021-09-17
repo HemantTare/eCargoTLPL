@@ -1,0 +1,67 @@
+<root>
+  <items>
+    <date>03/12/2020</date>
+    <time>15:11:03</time>
+    <url>http://localhost:64560/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQA=</url>
+    <message>System.ArgumentException: Column 'IseCargoUser' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter.initValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 115
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter..ctor(IDriverDetailsView DriverDetailsView, Boolean isPostback) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 43
+   at Master_Driver_WucDriverDetails.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 469
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>03/12/2020</date>
+    <time>15:13:21</time>
+    <url>http://localhost:64560/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQA=</url>
+    <message>System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at ClassLibraryMVP.Util.String2Bool(String val)
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter.initValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 115
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter..ctor(IDriverDetailsView DriverDetailsView, Boolean isPostback) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 43
+   at Master_Driver_WucDriverDetails.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 469
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>03/12/2020</date>
+    <time>15:15:14</time>
+    <url>http://localhost:64560/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQA=</url>
+    <message>System.FormatException: String was not recognized as a valid Boolean.
+   at System.Boolean.Parse(String value)
+   at System.Convert.ToBoolean(String value)
+   at ClassLibraryMVP.Util.String2Bool(String val)
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter.initValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 115
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter..ctor(IDriverDetailsView DriverDetailsView, Boolean isPostback) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 43
+   at Master_Driver_WucDriverDetails.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 469
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

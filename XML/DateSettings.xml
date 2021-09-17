@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<root>
+  <process name="Vehicle Master"					   code="VEH_ORD"			minhours="7300"		maxhours="0"/>
+  <process name="Vehicle Master"					   code="VEH_RD"			minhours="7300"		maxhours="0"/>
+  <process name="Vehicle Master"					   code="VEH_FID"			minhours="7300"		maxhours="0"/>
+  <process name="Vehicle Master"					   code="VEH_PVFD"			minhours="7300"		maxhours="0"/>
+  <process name="Vehicle Master"					   code="VEH_TVFD"			minhours="7300"		maxhours="0"/>
+  <process name="Vehicle Master"					   code="VEH_ICD"			minhours="1825"		maxhours="0"/>
+
+  <process name="Driver/Cleaner Master"				   code="DRI_BD"			minhours="1825000"	maxhours="0"/>  
+  <process name="Client Finance Master"				   code="CFD_REG"			minhours="182500"	maxhours="0"/>
+	
+  <process name="Vehicle Attach Task"				   code="VAT_LPOD"			minhours="7300"		maxhours="0"/>   
+  <process name="Tyre Purchase Order"				   code="TPO_POD"			minhours="365"		maxhours="0"/>
+  <process name="Tyre GRN"						       code="TG_GRND"			minhours="365"		maxhours="0"/>
+  <process name="Tyre Purchase Bill"				   code="TPB_PBD"			minhours="365"		maxhours="0"/>
+
+  <process name="Part Purchase Order"				   code="PPO_POD"			minhours="365"		maxhours="0"/>
+  <process name="Part GRN"						       code="PG_GRND"			minhours="365"		maxhours="0"/>
+  <process name="Part Purchase Bill"				   code="PPB_PBD"			minhours="365"		maxhours="0"/>
+
+  <process name="Tyre Movement"					       code="TM_MD"				minhours="365"		maxhours="0"/>
+  <process name="Tyre Movement"					       code="TM_RD"				minhours="365"		maxhours="0"/>
+  <process name="Tyre Movement"					       code="TM_DD"				minhours="365"		maxhours="0"/>
+
+  <process name="Tyre Recap Issue"					   code="TRI_ID"			minhours="365"		maxhours="0"/>
+  <process name="Tyre Recap Receipt"				   code="TRR_RD"			minhours="365"		maxhours="0"/>
+  <process name="Tyre Recap Bill"					   code="TRB_BD"			minhours="365"		maxhours="0"/>
+
+  <process name="Work Order"					       code="WW_WOD"			minhours="365"		maxhours="0"/>
+  <process name="Job Sheet"					           code="JB_JBD"			minhours="365"		maxhours="0"/>
+  <process name="Purchase And Consumption"			   code="PAC_PACD"			minhours="365"		maxhours="0"/>
+
+  <process name="Vehicle Inspection"				   code="VI_ID"				minhours="365"		maxhours="0"/>
+
+  <process name="Fitness Renewal"					   code="FR_RD"				minhours="365"		maxhours="0"/>
+  <process name="Permit Renewal"					   code="PR_RD"				minhours="365"		maxhours="0"/>
+  <process name="Tax Payment"					       code="TP_TPD"			minhours="365"		maxhours="0"/>
+  <process name="Vehicle Insurance Premium"		       code="VIP_ID"			minhours="v"		maxhours="0"/>
+  <process name="Trip Settlement"					   code="TP_SD"				minhours="365"		maxhours="0"/>
+
+
+  <process name="Branch"					           code="MST_BRC_STRT_ON"	minhours="0"		maxhours="0"/>
+  <process name="Client"					           code="CLNT_REG_DATE"		minhours="0"		maxhours="0"/>
+  <process name="Contract"					           code="CNTR_DATE"			minhours="0"		maxhours="0"/>
+  
+  <process name="Booking"					           code="OPR_GC"			minhours="0"		maxhours="0"/>
+  <process name="Account Transfer"					   code="OPR_AT"			minhours="0"		maxhours="0"/>
+  <process name="Memo"					               code="OPR_MEMO"			minhours="0"		maxhours="0"/>
+  <process name="LHPO"					               code="OPR_LHPO"			minhours="0"		maxhours="0"/>
+  <process name="Actual Unloading"					   code="OPR_AUS"			minhours="0"		maxhours="0"/>
+  <process name="Pre Delivery"					       code="OPR_PDS"			minhours="0"		maxhours="0"/>
+  <process name="Door Delivery Confirmation"		   code="OPR_DDC"			minhours="0"		maxhours="0"/>
+  <process name="Godown Delivery"					   code="OPR_GDC"			minhours="24"		maxhours="24"/>
+  <process name="Direct Delivery"					   code="OPR_DD"			minhours="0"		maxhours="0"/>
+  <process name="POD Cover Generation"				   code="OPR_PODCG"			minhours="0"		maxhours="0"/>
+  <process name="POD Cover Reciept"					   code="OPR_PODCR"			minhours="0"		maxhours="0"/>
+  <process name="POD Cover Delivery"				   code="OPR_PODCD"			minhours="0"		maxhours="0"/>
+
+  <process name="MR Booking"					       code="MR_BKG"			minhours="0"		maxhours="0"/>
+  <process name="MR Delivery"					       code="MR_DEL"			minhours="0"		maxhours="0"/>
+</root>

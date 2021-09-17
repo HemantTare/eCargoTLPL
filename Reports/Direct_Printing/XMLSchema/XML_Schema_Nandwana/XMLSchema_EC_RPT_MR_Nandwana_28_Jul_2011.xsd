@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="mr_id" type="xs:int" minOccurs="0" />
+              <xs:element name="Invoice_No" type="xs:string" minOccurs="0" />
+              <xs:element name="mr_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Booking_x0020_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="gc_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Client_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Reciept_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Oct_Receipt_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Unloading_Charge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Octroi" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Service_x0020_Tax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Octroi_Service_Charge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Created_By" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MR_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="cases" type="xs:int" minOccurs="0" />
+              <xs:element name="Particulars" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MR_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Cheque_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Cheque_Bank_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Cheque_Amount" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Company" type="xs:string" minOccurs="0" />
+              <xs:element name="Service_Tax_Reg_No" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema_EC_Rpt_Trip_Settelment_2" targetNamespace="http://tempuri.org/XMLSchema_EC_Rpt_Trip_Settelment_2.xsd" xmlns:mstns="http://tempuri.org/XMLSchema_EC_Rpt_Trip_Settelment_2.xsd" xmlns="http://tempuri.org/XMLSchema_EC_Rpt_Trip_Settelment_2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="XMLSchema_EC_Rpt_Trip_Settelment_2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Trip_x0020_Settelment_x0020_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="Trip_x0020_Settelment_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Vehicle_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Trip_x0020_Start_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Trip_x0020_End_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Total_x0020_Trip_x0020_Cost" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Driver_x0020_Closing_x0020_Balance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Company_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Company_x0020_Add_x0020_1" type="xs:string" minOccurs="0" />
+              <xs:element name="Company_x0020_Add_x0020_2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Trip_x0020_Settelment_x0020_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="Trip_x0020_Memo_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Trip_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="From_x0020_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="To_x0020_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Start_x0020_Kms" type="xs:long" minOccurs="0" />
+              <xs:element name="End_x0020_Kms" type="xs:long" minOccurs="0" />
+              <xs:element name="Kms_x0020_Run" type="xs:long" minOccurs="0" />
+              <xs:element name="Total_x0020_Act_x0020_Wt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Hire_x0020_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Advance" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Trip_x0020_Settelment_x0020_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="Is_x0020_Cash" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Fuel_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Place" type="xs:string" minOccurs="0" />
+              <xs:element name="Pump" type="xs:string" minOccurs="0" />
+              <xs:element name="Memo_x0020_Slip_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Rate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Fuel_x0020_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Oil_x0020_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="On_x0020_Kms" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Trip_x0020_Settelment_x0020_ID" type="xs:long" minOccurs="0" />
+              <xs:element name="Expense_x0020_Head" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

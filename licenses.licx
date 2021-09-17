@@ -1,0 +1,14 @@
+ComponentArt.Web.UI.NavBar, ComponentArt.Web.UI, Version=2006.2.1507.3, Culture=neutral, PublicKeyToken=9bc9f846553156bb
+ComponentArt.Web.UI.MultiPage, ComponentArt.Web.UI, Version=2006.2.1507.3, Culture=neutral, PublicKeyToken=9bc9f846553156bb
+ComponentArt.Web.UI.TabStrip, ComponentArt.Web.UI, Version=2006.2.1507.3, Culture=neutral, PublicKeyToken=9bc9f846553156bb
+Infragistics.WebUI.Misc.WebAsyncRefreshPanel, Infragistics2.WebUI.Misc.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb
+Infragistics.WebUI.UltraWebChart.UltraChart, Infragistics2.WebUI.UltraWebChart.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb
+Infragistics.WebUI.WebCombo.WebCombo, Infragistics2.WebUI.WebCombo.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb
+Infragistics.WebUI.UltraWebGrid.ExcelExport.UltraWebGridExcelExporter, Infragistics2.WebUI.UltraWebGrid.ExcelExport.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb
+Infragistics.WebUI.UltraWebGrid.UltraWebGrid, Infragistics2.WebUI.UltraWebGrid.v7.1, Version=7.1.20071.40, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb
+ComponentArt.Web.UI.Calendar, ComponentArt.Web.UI, Version=2006.2.1507.3, Culture=neutral, PublicKeyToken=9bc9f846553156bb
+ComponentArt.Web.UI.NavBar, ComponentArt.Web.UI, Version=2006.1.1252.2, Culture=neutral, PublicKeyToken=9bc9f846553156bb
+ComponentArt.Web.UI.MultiPage, ComponentArt.Web.UI, Version=2006.1.1252.2, Culture=neutral, PublicKeyToken=9bc9f846553156bb
+ComponentArt.Web.UI.TabStrip, ComponentArt.Web.UI, Version=2006.1.1252.2, Culture=neutral, PublicKeyToken=9bc9f846553156bb
+ComponentArt.Web.UI.Grid, ComponentArt.Web.UI, Version=2006.1.1252.2, Culture=neutral, PublicKeyToken=9bc9f846553156bb
+ComponentArt.Web.UI.Calendar, ComponentArt.Web.UI, Version=2006.1.1252.2, Culture=neutral, PublicKeyToken=9bc9f846553156bb

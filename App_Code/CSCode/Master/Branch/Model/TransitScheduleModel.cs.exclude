@@ -1,0 +1,66 @@
+using System;
+using System.Data;
+using System.Data.SqlClient;
+using Raj.EC.MasterView;
+using ClassLibraryMVP;
+using ClassLibraryMVP.General;
+using ClassLibraryMVP.DataAccess;
+
+/// <summary>
+/// Summary description for TransitScheduleModel
+/// </summary>
+/// 
+namespace Raj.EC.MasterModel
+{
+
+    public class TransitScheduleModel:IModel 
+    {
+        private ITransitScheduleView objITransitScheduleView;
+        private DAL objDAL = new DAL();
+        private DataSet objDS;
+        private int _userID = 1;
+
+
+        public TransitScheduleModel(ITransitScheduleView transitScheduleView)
+        {
+            objITransitScheduleView = transitScheduleView;
+        }
+        public DataSet ReadValues()
+        {
+            //SqlParameter[] objSqlParam = { objDAL.MakeInParams("@TemplateId", SqlDbType.Int, 0, objITransitScheduleView.keyID)
+            //                               };
+            //objDAL.RunProc("EF_Master_PM_Template_Read", objSqlParam, ref objDS);
+            return objDS;
+
+        }
+        public DataSet FillValues()
+        {
+            objDAL.RunProc("dbo.EC_Mst_TransitSchedule_FillValues", ref objDS);
+            SetTableName(new string[] { "StateMaster",                                                        
+                                        "VehicleTypeMaster"                                        
+                                         }
+                                       );
+            return objDS;
+
+        }
+
+        public DataSet FillGrid()
+        {
+            SqlParameter[] objSqlParam = { objDAL.MakeInParams("@State_ID", SqlDbType.Int, 0, objITransitScheduleView.FromStateID),
+                                           objDAL.MakeInParams("@Vehicle_Type_ID", SqlDbType.Int, 0, objITransitScheduleView.VehicleID),
+                                           objDAL.MakeInParams("@From_City_ID", SqlDbType.Int, 0, objITransitScheduleView.ToStateID) 
+                                           };
+            //objDAL.RunProc("EC_Mst_TransitDays_FillGrid", objSqlParam, ref objDS);
+            return objDS;
+
+        }
+        private void SetTableName(string[] nameList)
+        {
+            for (int i = 0; i < nameList.Length; i++)
+            {
+                objDS.Tables[i].TableName = nameList[i];
+            }
+
+        }
+    }
+}

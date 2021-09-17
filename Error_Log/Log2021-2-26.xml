@@ -1,0 +1,238 @@
+<root>
+  <items>
+    <date>26/02/2021</date>
+    <time>14:02:31</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MgA=&amp;Id=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Master_Sales_FrmClientRateContract.Set_Common_DDL(DropDownList DDl, String TextField, String ValueField, DataTable DT, Boolean Is_ZeroInex) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 176
+   at Master_Sales_FrmClientRateContract.set_BindFromLocation(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 186
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 393
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.ReadValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 245
+   at Master_Sales_FrmClientRateContract.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>14:02:59</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Master_Sales_FrmClientRateContract.Set_Common_DDL(DropDownList DDl, String TextField, String ValueField, DataTable DT, Boolean Is_ZeroInex) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 176
+   at Master_Sales_FrmClientRateContract.set_BindFromLocation(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 186
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 393
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.ReadValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 245
+   at Master_Sales_FrmClientRateContract.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>14:04:13</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Master_Sales_FrmClientRateContract.Set_Common_DDL(DropDownList DDl, String TextField, String ValueField, DataTable DT, Boolean Is_ZeroInex) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 176
+   at Master_Sales_FrmClientRateContract.set_BindFromLocation(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 186
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 393
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.ReadValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 245
+   at Master_Sales_FrmClientRateContract.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>14:05:38</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Master_Sales_FrmClientRateContract.Set_Common_DDL(DropDownList DDl, String TextField, String ValueField, DataTable DT, Boolean Is_ZeroInex) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 176
+   at Master_Sales_FrmClientRateContract.set_BindFromLocation(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 186
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 393
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.ReadValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 245
+   at Master_Sales_FrmClientRateContract.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>14:08:08</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Master_Sales_FrmClientRateContract.Set_Common_DDL(DropDownList DDl, String TextField, String ValueField, DataTable DT, Boolean Is_ZeroInex) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 176
+   at Master_Sales_FrmClientRateContract.set_BindFromLocation(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 186
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 393
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.ReadValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 245
+   at Master_Sales_FrmClientRateContract.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>14:10:08</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Master_Sales_FrmClientRateContract.Set_Common_DDL(DropDownList DDl, String TextField, String ValueField, DataTable DT, Boolean Is_ZeroInex) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 176
+   at Master_Sales_FrmClientRateContract.set_BindFromLocation(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 186
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 393
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.ReadValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 245
+   at Master_Sales_FrmClientRateContract.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>14:22:57</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.Web.HttpException: A field or property with the name 'RateContractID' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemCommand(Object source, DataGridCommandEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 480
+   at System.Web.UI.WebControls.DataGrid.OnItemCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>14:24:08</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.Web.HttpException: A field or property with the name 'RateContractID' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBind()
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemCommand(Object source, DataGridCommandEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 480
+   at System.Web.UI.WebControls.DataGrid.OnItemCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>16:04:57</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MgA=&amp;Id=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Master_Sales_FrmClientRateContract.Set_Common_DDL(DropDownList DDl, String TextField, String ValueField, DataTable DT, Boolean Is_ZeroInex) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 176
+   at Master_Sales_FrmClientRateContract.set_BindFromLocation(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 186
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 406
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.ReadValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 245
+   at Master_Sales_FrmClientRateContract.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>26/02/2021</date>
+    <time>16:05:02</time>
+    <url>http://localhost:53533/ECTest/Master/Sales/FrmClientRateContract.aspx?Menu_Item_Id=MwA0ADYA&amp;Mode=MQA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Master_Sales_FrmClientRateContract.Set_Common_DDL(DropDownList DDl, String TextField, String ValueField, DataTable DT, Boolean Is_ZeroInex) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 176
+   at Master_Sales_FrmClientRateContract.set_BindFromLocation(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 186
+   at Master_Sales_FrmClientRateContract.dg_Commodity_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 406
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Master_Sales_FrmClientRateContract.Bind_dg_Commodity() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 203
+   at Master_Sales_FrmClientRateContract.ReadValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 245
+   at Master_Sales_FrmClientRateContract.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Master\Sales\FrmClientRateContract.aspx.cs:line 138
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

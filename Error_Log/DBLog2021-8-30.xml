@@ -1,0 +1,9 @@
+<root>
+  <items>
+    <date>30/08/2021</date>
+    <time>17:33:57</time>
+    <url>/ECTest/Master/Location/FrmState.aspx?Menu_Item_Id=NwA%3d&amp;Mode=MgA%3d&amp;Id=MQA%3d</url>
+    <errorcode>2601</errorcode>
+    <message>78ÖCannot insert duplicate key row in object 'dbo.EC_Master_State' with unique index 'IX_EC_Master_State_1'.</message>
+  </items>
+</root>

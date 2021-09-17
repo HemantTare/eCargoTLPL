@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Voucher_Type_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Voucher_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Particulars" type="xs:string" minOccurs="0" />
+              <xs:element name="Voucher_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="Voucher_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Credit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Narration" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Opening_Balance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_Debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_Credit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Closing_Balance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Is_Bank_Ledger" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

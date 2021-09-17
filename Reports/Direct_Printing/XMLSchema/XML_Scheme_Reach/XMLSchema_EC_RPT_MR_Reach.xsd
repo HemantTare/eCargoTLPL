@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MR_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="MR_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="MR_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Customer" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_MR_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GC_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="Advance_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Service_Tax_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Other_Deduction" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cash_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Name_x0020_of_x0020_Receiver" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MR_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Cheque_Bank_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Cheque_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Cheque_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Cheque_Date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Company_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

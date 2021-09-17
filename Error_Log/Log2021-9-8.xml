@@ -1,0 +1,68 @@
+<root>
+  <items>
+    <date>08/09/2021</date>
+    <time>13:11:57</time>
+    <url>http://localhost:64247/ECTest/Display/FrmDelete.aspx?Menu_Item_Id=MwA1ADgA&amp;Mode=MwA=&amp;Id=MQA=&amp;LinkBtnText=QwBBAE4AQwBFAEwA&amp;LinkName=RABJAEUAUwBFAEwAIABFAFgAUABFAE4AUwBFACAATwBXAE4AIABUAEUATQBQAE8A&amp;No=UwBSAFQALQAyADEALQAwADAAMAAwADEA</url>
+    <message>System.Data.SqlClient.SqlException: Invalid object name 'FA_Opr_Diesle_Exepnse'.
+Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Raj.EC.Cancel.EC_Opr_Cancel(Int32 Document_ID, Int32 Menu_Item_Id, String Reason, Int32 Cancelled_By, Int32&amp; Error_Id, String&amp; Error_Name) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Cancel.cs:line 44
+   at Display_WucDelete.btn_Cancel_Click(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Display\WucDelete.ascx.cs:line 49
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>08/09/2021</date>
+    <time>13:15:16</time>
+    <url>http://localhost:64247/ECTest/Finance/Reports/FrmDayBook.aspx?Menu_Item_Id=NAA5AA==&amp;Mode=NAA=&amp;IsConsolidated=+False&amp;Hierarchy_Code=BO&amp;Main_Id=13&amp;StartDate=MAAxAC8AMAA0AC8AMgAwADIAMQAgADAAMAA6ADAAMAA6ADAAMAA=&amp;EndDate=MAA4AC8AMAA5AC8AMgAwADIAMQAgADAAMAA6ADAAMAA6ADAAMAA=&amp;Division_Id=1</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Finance_Reports_WucDayBook.DG_Monthly_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Reports\WucDayBook.ascx.cs:line 218
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at CommonControls_WucGridSearch.SearchRecord() in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucGridSearch.ascx.cs:line 232
+   at CommonControls_WucGridSearch.btn_Search_Click(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucGridSearch.ascx.cs:line 301
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>08/09/2021</date>
+    <time>19:52:41</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmConveyanceVoucher.aspx?Menu_Item_Id=MwA1ADkA&amp;Mode=MQA=</url>
+    <message>System.ArgumentException: Column 'Travel_By_ID' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.set_Item(String columnName, Object value)
+   at Finance_Accounting_Vouchers_FrmConveyanceVoucher.Insert_Update_Commodity_Dataset(Object source, DataGridCommandEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmConveyanceVoucher.aspx.cs:line 474
+   at Finance_Accounting_Vouchers_FrmConveyanceVoucher.dg_Commodity_ItemCommand(Object source, DataGridCommandEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmConveyanceVoucher.aspx.cs:line 396
+   at System.Web.UI.WebControls.DataGrid.OnItemCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ATHV_DateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_SaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btn_SaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalendarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_LHPONoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_PetrolPumpResource1.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetPetrolPump</value>
+  </data>
+  <data name="ddl_PetrolPumpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddl_PetrolPumpResource2.CallBackFunction" xml:space="preserve">
+    <value>Raj.EF.CallBackFunction.CallBack.GetPetrolPump</value>
+  </data>
+  <data name="ddl_PetrolPumpResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_PetrolResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dg_PetrolResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dg_PetrolResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dg_PetrolResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EditCommandColumnResource1.CancelText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="EditCommandColumnResource1.EditText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EditCommandColumnResource1.UpdateText" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>fields with * mark are mandatory</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Cheque control:</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_advance_payableResource1.Text" xml:space="preserve">
+    <value>Advance Payable :</value>
+  </data>
+  <data name="lbl_advance_payableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_AdvancePayableResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_AdvancePayableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ATHVoucher_NoResource1.Text" xml:space="preserve">
+    <value>ATH Voucher No :</value>
+  </data>
+  <data name="lbl_ATHVoucher_NoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ATHVoucherNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ATHVoucherNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_broker_textResource1.Text" xml:space="preserve">
+    <value>Broker :</value>
+  </data>
+  <data name="lbl_broker_textResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_BrokerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_BrokerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_DateResource1.Text" xml:space="preserve">
+    <value>ATH Voucher Date :</value>
+  </data>
+  <data name="lbl_DateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Driver_1Resource1.Text" xml:space="preserve">
+    <value>Driver 1 :</value>
+  </data>
+  <data name="lbl_Driver_1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Driver1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Driver1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Error_ClientResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Error_ClientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ErrorsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_headingResource1.Text" xml:space="preserve">
+    <value>Advance Truck Hire(ATH)</value>
+  </data>
+  <data name="lbl_headingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPO_dateResource1.Text" xml:space="preserve">
+    <value>LHPO Date :</value>
+  </data>
+  <data name="lbl_LHPO_dateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPO_noResource1.Text" xml:space="preserve">
+    <value>LHPO No :</value>
+  </data>
+  <data name="lbl_LHPO_noResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPODateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_LHPODateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Manual_Ref_NoResource1.Text" xml:space="preserve">
+    <value>Manual Ref. No :</value>
+  </data>
+  <data name="lbl_Manual_Ref_NoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ManualRefNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_ManualRefNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_owner_textResource1.Text" xml:space="preserve">
+    <value>Owner :</value>
+  </data>
+  <data name="lbl_owner_textResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_OwnerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_OwnerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Reference_noResource1.Text" xml:space="preserve">
+    <value>Reference No :</value>
+  </data>
+  <data name="lbl_Reference_noResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_RemarksResource1.Text" xml:space="preserve">
+    <value>Remarks :</value>
+  </data>
+  <data name="lbl_RemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Total_AmtResource1.Text" xml:space="preserve">
+    <value>Total Amount :</value>
+  </data>
+  <data name="lbl_Total_AmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_total_paid_amtResource1.Text" xml:space="preserve">
+    <value>Total Paid Amt :</value>
+  </data>
+  <data name="lbl_total_paid_amtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalAmtResource1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_TotalAmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalPaidAmtResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_TotalPaidAmtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_vehicle_cotegoryResource1.Text" xml:space="preserve">
+    <value>Vehicle Cotegory :</value>
+  </data>
+  <data name="lbl_vehicle_cotegoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_Vehicle_noResource1.Text" xml:space="preserve">
+    <value>Vehicle No :</value>
+  </data>
+  <data name="lbl_Vehicle_noResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_VehicleCotegoryResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbl_VehicleCotegoryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_AddResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbtn_AddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtn_DeleteResource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbtn_DeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Msg_ddl_PetrolPump" xml:space="preserve">
+    <value>Please Select Petrol Pump</value>
+  </data>
+  <data name="Msg_ddl_vehicle" xml:space="preserve">
+    <value>Please Select Vehicle</value>
+  </data>
+  <data name="Msg_dtp_Date" xml:space="preserve">
+    <value>InValid ATH Date</value>
+  </data>
+  <data name="Msg_dtp_LhpoDateValid" xml:space="preserve">
+    <value>ATH Date Can't be less than</value>
+  </data>
+  <data name="Msg_Duplicate_Petrolslip" xml:space="preserve">
+    <value>Duplicate Slip No Found</value>
+  </data>
+  <data name="Msg_Panel_GroupingText" xml:space="preserve">
+    <value>Petrol Slip Details</value>
+  </data>
+  <data name="Msg_txt_Amount" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="Msg_txt_Chq_Amt" xml:space="preserve">
+    <value>Please Enter Valid Cheque Amount</value>
+  </data>
+  <data name="Msg_txt_GridRemarks" xml:space="preserve">
+    <value>Please Enter Remark</value>
+  </data>
+  <data name="Msg_txt_Petrol" xml:space="preserve">
+    <value>Total Paid Amount can't be greater than Advance Payable Amount</value>
+  </data>
+  <data name="Msg_txt_Petrol_Alloc" xml:space="preserve">
+    <value>Total Paid Amount + Total Petrol Amount can't be greater than Advance Payable Amount</value>
+  </data>
+  <data name="Msg_txt_Petrol_Slip_Validation" xml:space="preserve">
+    <value>Please Enter Petrol Slip No Between</value>
+  </data>
+  <data name="Msg_txt_SlipNo" xml:space="preserve">
+    <value>Please Enter Slip No</value>
+  </data>
+  <data name="pnp_PetrolResource1.GroupingText" xml:space="preserve">
+    <value>Petrol Slip</value>
+  </data>
+  <data name="pnp_PetrolResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_AmountResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_ReferenceNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_ReferenceNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_RemarksResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_SlipNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_SlipNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_SlipNoResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txt_SlipNoResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

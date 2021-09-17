@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LHPO_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="LHPO_From_Branch_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_Type" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Vehicle_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver1_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver1_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver2_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Driver2_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_To_Branch_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Vehicle_Category" type="xs:string" minOccurs="0" />
+              <xs:element name="Loading_Supervisor_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Vendor_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="To_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Memo_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="Memo_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Total_Actual_Weight" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_No_Of_GCs" type="xs:int" minOccurs="0" />
+              <xs:element name="Loading_Charges" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Truck_Hire_Charge" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TDS_Percent" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TDS_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Total_Advance_To_Be_Paid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Balance_Payble_Amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Balance_Payable_Hierarchy_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Payable_x0020_By" type="xs:string" minOccurs="0" />
+              <xs:element name="Is_Cancelled" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LHPO_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="MEMO_From_Branch_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="MEMO_To_Branch_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Departure_x0020_Date_x0020__x0026__x0020_Time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Arrival_x0020_Date_x0020__x0026__x0020_Time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Run_Hrs" type="xs:int" minOccurs="0" />
+              <xs:element name="Reason" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

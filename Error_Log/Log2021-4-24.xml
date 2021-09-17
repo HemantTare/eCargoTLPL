@@ -1,0 +1,22 @@
+<root>
+  <items>
+    <date>24/04/2021</date>
+    <time>12:25:10</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmDriverTripAdvance.aspx?Menu_Item_Id=MwAxADgA&amp;Mode=MgA=&amp;Id=MQA5AA==</url>
+    <message>System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: Calendar.SelectedDates are out of the range of valid values.  All members of the SelectedDates collection must chronologically be between Calendar.MinDate and Calendar.MaxDate (inclusive).
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.VerifyDates()
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.Insert(Int32 index, Object value)
+   at ComponentArt.Web.UI.DateCollection.Add(DateTime date)
+   at ComponentArt.Web.UI.Calendar.set_SelectedDate(DateTime value)
+   at CommonControls_WucDatePicker.set_SelectedDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucDatePicker.ascx.cs:line 53
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.set_ChequeDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 109
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 330
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 173
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

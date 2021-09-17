@@ -1,0 +1,76 @@
+<root>
+  <items>
+    <date>13/09/2021</date>
+    <time>13:59:36</time>
+    <url>http://localhost:64247/ECTest/Finance/Reports/FrmDayBook.aspx?Menu_Item_Id=NAA5AA==&amp;Mode=NAA=&amp;IsConsolidated= True&amp;Hierarchy_Code=0&amp;Main_Id=0&amp;StartDate=MAAxAC8AMAA0AC8AMgAwADIAMQAgADAAMAA6ADAAMAA6ADAAMAA=&amp;EndDate=MQAzAC8AMAA5AC8AMgAwADIAMQAgADAAMAA6ADAAMAA6ADAAMAA=&amp;Division_Id=1</url>
+    <message>System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.SetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)
+   at Raj.EC.FinanceModel.DayBookModel.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Reports\Model\DayBookModel.cs:line 54
+   at Raj.EC.FinancePresenter.DayBookPresenter.GetData() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Reports\Presenter\DayBookPresenter.cs:line 41
+   at Raj.EC.FinancePresenter.DayBookPresenter..ctor(IDayBookView dayBookView, Boolean IsPostBack) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Reports\Presenter\DayBookPresenter.cs:line 34
+   at Finance_Reports_WucDayBook.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Reports\WucDayBook.ascx.cs:line 149
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>13/09/2021</date>
+    <time>14:03:23</time>
+    <url>http://localhost:64247/ECTest/Finance/Reports/FrmDayBook.aspx?Menu_Item_Id=NAA5AA==&amp;Mode=NAA=&amp;IsConsolidated= True&amp;Hierarchy_Code=0&amp;Main_Id=0&amp;StartDate=MAAxAC8AMAA0AC8AMgAwADIAMQAgADAAMAA6ADAAMAA6ADAAMAA=&amp;EndDate=MQAzAC8AMAA5AC8AMgAwADIAMQAgADAAMAA6ADAAMAA6ADAAMAA=&amp;Division_Id=1</url>
+    <message>System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.SetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params, DataSet&amp; dataSetObject)
+   at Raj.EC.FinanceModel.DayBookModel.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Reports\Model\DayBookModel.cs:line 54
+   at Raj.EC.FinancePresenter.DayBookPresenter.GetData() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Reports\Presenter\DayBookPresenter.cs:line 41
+   at Raj.EC.FinancePresenter.DayBookPresenter..ctor(IDayBookView dayBookView, Boolean IsPostBack) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Finance\Reports\Presenter\DayBookPresenter.cs:line 34
+   at Finance_Reports_WucDayBook.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Reports\WucDayBook.ascx.cs:line 149
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

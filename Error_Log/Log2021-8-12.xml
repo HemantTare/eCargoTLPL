@@ -1,0 +1,128 @@
+<root>
+  <items>
+    <date>12/08/2021</date>
+    <time>11:02:58</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmVaraiPayment.aspx?Menu_Item_Id=MwA1ADcA&amp;Mode=MQA=</url>
+    <message>System.Data.SqlClient.SqlException: Procedure or function 'FA_Opr_Varai_Payment_Save' expects parameter '@UpdatedBy', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Finance_Accounting_Vouchers_FrmVaraiPayment.Save() in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmVaraiPayment.aspx.cs:line 304
+   at Finance_Accounting_Vouchers_FrmVaraiPayment.btn_Save_Exit_Click(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmVaraiPayment.aspx.cs:line 266
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>12/08/2021</date>
+    <time>11:04:02</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmVaraiPayment.aspx?Menu_Item_Id=MwA1ADcA&amp;Mode=MQA=</url>
+    <message>System.Data.SqlClient.SqlException: Procedure or function 'FA_Opr_Varai_Payment_Save' expects parameter '@UpdatedBy', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Finance_Accounting_Vouchers_FrmVaraiPayment.Save() in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmVaraiPayment.aspx.cs:line 304
+   at Finance_Accounting_Vouchers_FrmVaraiPayment.btn_Save_Exit_Click(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmVaraiPayment.aspx.cs:line 266
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>12/08/2021</date>
+    <time>11:32:18</time>
+    <url>http://localhost:64247/ECTest/Finance/Accounting Vouchers/FrmVaraiPayment.aspx?Menu_Item_Id=MwA1ADcA&amp;Mode=MQA=</url>
+    <message>System.Data.SqlClient.SqlException: Could not find stored procedure 'dbo.FA_Opr_Varai_Payment_Savee'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Finance_Accounting_Vouchers_FrmVaraiPayment.Save() in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmVaraiPayment.aspx.cs:line 304
+   at Finance_Accounting_Vouchers_FrmVaraiPayment.btn_Save_Exit_Click(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Finance\Accounting Vouchers\FrmVaraiPayment.aspx.cs:line 266
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>12/08/2021</date>
+    <time>13:13:24</time>
+    <url>http://localhost:64247/ECTest/Grid/frmMstGrid.aspx?Menu_Item_Id=MwA1ADYA&amp;Mode=NAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.RemoveAt(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.RemoveAt(Int32 index)
+   at CommonControls_WucSearch.FillMstGridHeaders(DataGrid dg_Grid) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 94
+   at GridWucMstGrid.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Grid\WucMstGrid.ascx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>12/08/2021</date>
+    <time>13:20:48</time>
+    <url>http://localhost:64247/ECTest/Grid/frmMstGrid.aspx?Menu_Item_Id=MwA1ADYA&amp;Mode=NAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.RemoveAt(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.RemoveAt(Int32 index)
+   at CommonControls_WucSearch.FillMstGridHeaders(DataGrid dg_Grid) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 94
+   at GridWucMstGrid.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Grid\WucMstGrid.ascx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>12/08/2021</date>
+    <time>13:22:57</time>
+    <url>http://localhost:64247/ECTest/Grid/frmMstGrid.aspx?Menu_Item_Id=MwA1ADYA&amp;Mode=NAA=</url>
+    <message>System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.RemoveAt(Int32 index)
+   at System.Web.UI.WebControls.ListItemCollection.RemoveAt(Int32 index)
+   at CommonControls_WucSearch.FillMstGridHeaders(DataGrid dg_Grid) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucSearch.ascx.cs:line 94
+   at GridWucMstGrid.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Grid\WucMstGrid.ascx.cs:line 35
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

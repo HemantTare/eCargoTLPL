@@ -1,0 +1,52 @@
+<root>
+  <items>
+    <date>30/03/2021</date>
+    <time>17:08:11</time>
+    <url>http://localhost:53533/ECTest/Finance/Accounting Vouchers/FrmVoucher.aspx?Menu_Item_Id=MQA0ADQA&amp;Mode=MgA=&amp;Id=NgA3ADMA&amp;IBTVoucherFlag=QQBjAGMAZQBwAHQA&amp;Voucher_Type_Id=MgA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Finance_Accounting_Vouchers_Voucher.get_LedgerId() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Finance\Accounting Vouchers\WucVoucher.ascx.cs:line 223
+   at Finance_Accounting_Vouchers_Voucher.dg_Voucher_ItemDataBound(Object source, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Finance\Accounting Vouchers\WucVoucher.ascx.cs:line 815
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Finance_Accounting_Vouchers_Voucher.set_Bind_dg_Voucher(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Finance\Accounting Vouchers\WucVoucher.ascx.cs:line 374
+   at Raj.EC.FinancePresenter.VoucherPresenter.readValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\VoucherPresenter.cs:line 85
+   at Raj.EC.FinancePresenter.VoucherPresenter.initValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\VoucherPresenter.cs:line 40
+   at Raj.EC.FinancePresenter.VoucherPresenter..ctor(IVoucherView VoucherView, Boolean IsPostBack) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\VoucherPresenter.cs:line 30
+   at Finance_Accounting_Vouchers_Voucher.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Finance\Accounting Vouchers\WucVoucher.ascx.cs:line 684
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>30/03/2021</date>
+    <time>17:08:15</time>
+    <url>http://localhost:53533/ECTest/Finance/Accounting Vouchers/FrmVoucher.aspx?Menu_Item_Id=MQA0ADQA&amp;Mode=MgA=&amp;Id=NgA3ADMA&amp;IBTVoucherFlag=QQBjAGMAZQBwAHQA&amp;Voucher_Type_Id=MgA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Finance_Accounting_Vouchers_Voucher.get_LedgerId() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Finance\Accounting Vouchers\WucVoucher.ascx.cs:line 223
+   at Finance_Accounting_Vouchers_Voucher.dg_Voucher_ItemDataBound(Object source, DataGridItemEventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Finance\Accounting Vouchers\WucVoucher.ascx.cs:line 815
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Finance_Accounting_Vouchers_Voucher.set_Bind_dg_Voucher(DataTable value) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Finance\Accounting Vouchers\WucVoucher.ascx.cs:line 374
+   at Raj.EC.FinancePresenter.VoucherPresenter.readValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\VoucherPresenter.cs:line 85
+   at Raj.EC.FinancePresenter.VoucherPresenter.initValues() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\VoucherPresenter.cs:line 40
+   at Raj.EC.FinancePresenter.VoucherPresenter..ctor(IVoucherView VoucherView, Boolean IsPostBack) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\App_Code\CSCode\Finance\Accounting Vouchers\Presenter\VoucherPresenter.cs:line 30
+   at Finance_Accounting_Vouchers_Voucher.Page_Load(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Finance\Accounting Vouchers\WucVoucher.ascx.cs:line 684
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

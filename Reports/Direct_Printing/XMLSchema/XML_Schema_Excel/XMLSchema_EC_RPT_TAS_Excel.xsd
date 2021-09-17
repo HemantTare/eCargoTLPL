@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TAS_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="TAS_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="TAS_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LHPO_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="LHPO_x0020_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Vehicle_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Loading_x0020_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Unloading_x0020_Branch" type="xs:string" minOccurs="0" />
+			  <xs:element name="Created_by" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TAS_Id" type="xs:int" minOccurs="0" />
+              <xs:element name="GC_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="CN_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Pkgs" type="xs:int" minOccurs="0" />
+              <xs:element name="Private_x0020_Mark" type="xs:string" minOccurs="0" />
+              <xs:element name="To_x0020_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Contain" type="xs:string" minOccurs="0" />
+              <xs:element name="Loaded_x0020_Articles" type="xs:int" minOccurs="0" />
+              <xs:element name="Unloaded_x0020_Pkgs" type="xs:string" minOccurs="0" />
+              <xs:element name="Remark" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

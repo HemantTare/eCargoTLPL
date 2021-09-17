@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tabs>
+	<tab ID="0" Text="General Details"/>
+	<tab ID="1" Text="Crossing Details"/>
+	<tab ID="2" Text="Memo Details"/>
+	<tab ID="3" Text="LHPO Details"/>
+	<tab ID="4" Text="AUS Details"/>
+	<tab ID="5" Text="Delivery Details"/>
+	<tab ID="6" Text="Current Status"/>
+	<tab ID="7" Text="Booking MR Details"/>
+	<tab ID="8" Text="Delivery MR Details"/>
+	<tab ID="9" Text="Attached LHPO Details"/>
+	<tab ID="10" Text="POD Details"/>
+	<tab ID="11" Text="Cover Generation Details"/>
+	<tab ID="12" Text="Cover Received Details"/>
+	<tab ID="13" Text="Cover Delivery Details"/>
+	<tab ID="14" Text="Credit Memo Details"/>
+	<tab ID="15" Text="Billing Details"/>
+  <tab ID="16" Text="Finance Details"/>
+  <tab ID="17" Text="PDS Details"/>
+</tabs>

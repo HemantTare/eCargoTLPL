@@ -1,0 +1,173 @@
+<root>
+  <items>
+    <date>01/06/2021</date>
+    <time>10:44:02</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 644
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Bind_dg_GridAdvanceDetails() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 613
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 525
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 309
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>01/06/2021</date>
+    <time>10:52:18</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 625
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Bind_dg_GridAdvanceDetails() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 613
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 525
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 309
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>01/06/2021</date>
+    <time>10:59:53</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 625
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Bind_dg_GridAdvanceDetails() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 613
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.ReadValues() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 525
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 309
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>01/06/2021</date>
+    <time>11:28:29</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_EditCommand(Object source, DataGridCommandEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 690
+   at System.Web.UI.WebControls.DataGrid.OnEditCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>01/06/2021</date>
+    <time>11:28:29</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 
+	User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+	ViewState: /wEPDwUKMTg3MjMyOTU1Mw9kFgICAQ9kFkICBQ9kFgRmDxQrAANkBQkyMDIxLjUuMzEFCDAwMDEuMS4xZAICDxQrAAMPFggeFkFsbG93TXVsdGlwbGVTZWxlY3Rpb25oHhJBbGxvd1dlZWtTZWxlY3Rpb25oHhFBbGxvd0RheVNlbGVjdGlvbmgeE0FsbG93TW9udGhTZWxlY3Rpb25oZGUFCDAwMDEuMS4xZAIHDw8WAh4EVGV4dAUFMDAwMTVkZAIJDw8WAh8EBQlNSDQzVTU1MzRkZAINDw8WAh8EBRsyMDIwIEtnIERhdGVkIDogMjYgTWF5IDIwMjFkZAIPDw8WAh8EBQsyNiBNYXkgMjAyMWRkAhEPDxYCHwQFCzMwIE1heSAyMDIxZGQCEw8PFgIfBAUQU0hVS0FSVUxMQUggS0hBTmRkAhUPD2QWAh4Hb25jbGljawWwAXJldHVybiB2aWV3d2luZG93X0RyaXZlckhpc3RvcnkoJ2h0dHA6Ly9sb2NhbGhvc3Q6NjQyNDcvRUNUZXN0L09wZXJhdGlvbnMvVmVoaWNsZSBUcmlwIEV4cGVuc2UvRnJtX1RyaXBfRXhwZW5zZV9Ecml2ZXJfVHJpcF9IaXN0b3J5LmFzcHg/RHJpdmVyX0lEPU1RQT0mVHJpcEV4cGVuc2VJRD1NZ0E0QUE9PScpZAIXDw8WAh8EBQZBYWthc2hkZAIZDw8WAh8EZWRkAhsPDxYCHwRlZGQCHQ8PFgIfBAUOKEVNUFRZIFJFVFVSTi... ---&gt; System.FormatException: Invalid length for a Base-64 char array.
+   at System.Convert.FromBase64String(String s)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString)
+   at System.Web.UI.ObjectStateFormatter.System.Web.UI.IStateFormatter.Deserialize(String serializedState)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter formatter, String serializedState)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   --- End of inner exception stack trace ---</message>
+  </items>
+  <items>
+    <date>01/06/2021</date>
+    <time>11:28:32</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.NullReferenceException: Object reference not set to an instance of an object.
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_EditCommand(Object source, DataGridCommandEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 690
+   at System.Web.UI.WebControls.DataGrid.OnEditCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>01/06/2021</date>
+    <time>11:43:12</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_ItemDataBound(Object sender, DataGridItemEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 622
+   at System.Web.UI.WebControls.DataGrid.OnItemDataBound(DataGridItemEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.BaseDataList.DataBind()
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.Bind_dg_GridAdvanceDetails() in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 613
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_ItemCommand(Object source, DataGridCommandEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 803
+   at System.Web.UI.WebControls.DataGrid.OnItemCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>01/06/2021</date>
+    <time>11:47:44</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Convert.ToDecimal(String value)
+   at Operations_VehicleTripExpense_FrmVehicleTripExpenseApproval.dg_AdvanceDetails_EditCommand(Object source, DataGridCommandEventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Operations\Vehicle Trip Expense\FrmVehicleTripExpenseApproval.aspx.cs:line 681
+   at System.Web.UI.WebControls.DataGrid.OnEditCommand(DataGridCommandEventArgs e)
+   at System.Web.UI.WebControls.DataGrid.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.DataGridItem.OnBubbleEvent(Object source, EventArgs e)
+   at System.Web.UI.Control.RaiseBubbleEvent(Object source, EventArgs args)
+   at System.Web.UI.WebControls.LinkButton.OnCommand(CommandEventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>01/06/2021</date>
+    <time>12:24:31</time>
+    <url>http://localhost:64247/ECTest/Operations/Vehicle Trip Expense/FrmVehicleTripExpenseApproval.aspx?Id=MgA4AA==&amp;Menu_Item_Id=MwAxADcA&amp;Mode=MgA=&amp;IsApprove=MAA=</url>
+    <message>System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 
+	User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)
+	ViewState: /wEPDwUKMTg3MjMyOTU1Mw9kFgICAQ9kFkICBQ9kFgRmDxQrAANkBQkyMDIxLjUuMzEFCDAwMDEuMS4xZAICDxQrAAMPFggeFkFsbG93TXVsdGlwbGVTZWxlY3Rpb25oHhJBbGxvd1dlZWtTZWxlY3Rpb25oHhFBbGxvd0RheVNlbGVjdGlvbmgeE0FsbG93TW9udGhTZWxlY3Rpb25oZGUFCDAwMDEuMS4xZAIHDw8WAh4EVGV4dAUFMDAwMTVkZAIJDw8WAh8EBQlNSDQzVTU1MzRkZAINDw8WAh8EBRsyMDIwIEtnIERhdGVkIDogMjYgTWF5IDIwMjFkZAIPDw8WAh8EBQsyNiBNYXkgMjAyMWRkAhEPDxYCHwQFCzMwIE1heSAyMDIxZGQCEw8PFgIfBAUQU0hVS0FSVUxMQUggS0hBTmRkAhUPD2QWAh4Hb25jbGljawWwAXJldHVybiB2aWV3d2luZG93X0RyaXZlckhpc3RvcnkoJ2h0dHA6Ly9sb2NhbGhvc3Q6NjQyNDcvRUNUZXN0L09wZXJhdGlvbnMvVmVoaWNsZSBUcmlwIEV4cGVuc2UvRnJtX1RyaXBfRXhwZW5zZV9Ecml2ZXJfVHJpcF9IaXN0b3J5LmFzcHg/RHJpdmVyX0lEPU1RQT0mVHJpcEV4cGVuc2VJRD1NZ0E0QUE9PScpZAIXDw8WAh8EBQZBYWthc2hkZAIZDw8WAh8EZWRkAhsPDxYCHwRlZGQCHQ8PFgIfBAUOKEVNUFRZIFJFVFVSTi...</message>
+  </items>
+</root>

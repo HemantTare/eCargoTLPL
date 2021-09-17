@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MR_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Address" type="xs:string" minOccurs="0" />
+              <xs:element name="MR_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="MR_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Received_From" type="xs:string" minOccurs="0" />
+              <xs:element name="Through_Mr" type="xs:string" minOccurs="0" />
+              <xs:element name="GC_No_For_Print" type="xs:string" minOccurs="0" />
+              <xs:element name="GC_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Packages_Wt" type="xs:string" minOccurs="0" />
+              <xs:element name="From_Branch" type="xs:string" minOccurs="0" />
+              <xs:element name="Arrival_Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DRF_No" type="xs:string" minOccurs="0" />
+              <xs:element name="PM_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Said_To_Contain" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MR_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Freight_Amt" type="xs:double" minOccurs="0" />
+              <xs:element name="Labour" type="xs:double" minOccurs="0" />
+              <xs:element name="Godown_Ins" type="xs:double" minOccurs="0" />
+              <xs:element name="Demurage_Charges" type="xs:double" minOccurs="0" />
+              <xs:element name="Commission" type="xs:double" minOccurs="0" />
+              <xs:element name="Others" type="xs:double" minOccurs="0" />
+              <xs:element name="Service_x0020_Tax" type="xs:double" minOccurs="0" />
+              <xs:element name="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

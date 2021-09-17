@@ -1,0 +1,106 @@
+<root>
+  <items>
+    <date>08/07/2021</date>
+    <time>17:16:59</time>
+    <url>http://localhost:64247/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQAwADIAOQA=</url>
+    <message>System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: Calendar.SelectedDates are out of the range of valid values.  All members of the SelectedDates collection must chronologically be between Calendar.MinDate and Calendar.MaxDate (inclusive).
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.VerifyDates()
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.Insert(Int32 index, Object value)
+   at ComponentArt.Web.UI.DateCollection.Add(DateTime date)
+   at ComponentArt.Web.UI.Calendar.set_SelectedDate(DateTime value)
+   at CommonControls_WucDatePicker.set_SelectedDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucDatePicker.ascx.cs:line 53
+   at Master_Driver_WucDriverDetails.set_ReferenceDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 82
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 127
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter..ctor(IDriverDetailsView DriverDetailsView, Boolean isPostback) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 43
+   at Master_Driver_WucDriverDetails.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 578
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>08/07/2021</date>
+    <time>17:18:37</time>
+    <url>http://localhost:64247/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQAwADIAOQA=</url>
+    <message>System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: Calendar.SelectedDates are out of the range of valid values.  All members of the SelectedDates collection must chronologically be between Calendar.MinDate and Calendar.MaxDate (inclusive).
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.VerifyDates()
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.Insert(Int32 index, Object value)
+   at ComponentArt.Web.UI.DateCollection.Add(DateTime date)
+   at ComponentArt.Web.UI.Calendar.set_SelectedDate(DateTime value)
+   at CommonControls_WucDatePicker.set_SelectedDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucDatePicker.ascx.cs:line 53
+   at Master_Driver_WucDriverDetails.set_ReferenceDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 82
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 127
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter..ctor(IDriverDetailsView DriverDetailsView, Boolean isPostback) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 43
+   at Master_Driver_WucDriverDetails.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 578
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>08/07/2021</date>
+    <time>17:20:23</time>
+    <url>http://localhost:64247/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQAwADIAOQA=</url>
+    <message>System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: Calendar.SelectedDates are out of the range of valid values.  All members of the SelectedDates collection must chronologically be between Calendar.MinDate and Calendar.MaxDate (inclusive).
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.VerifyDates()
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.Insert(Int32 index, Object value)
+   at ComponentArt.Web.UI.DateCollection.Add(DateTime date)
+   at ComponentArt.Web.UI.Calendar.set_SelectedDate(DateTime value)
+   at CommonControls_WucDatePicker.set_SelectedDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucDatePicker.ascx.cs:line 53
+   at Master_Driver_WucDriverDetails.set_ReferenceDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 82
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 127
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter..ctor(IDriverDetailsView DriverDetailsView, Boolean isPostback) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 43
+   at Master_Driver_WucDriverDetails.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 578
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+  <items>
+    <date>08/07/2021</date>
+    <time>17:21:57</time>
+    <url>http://localhost:64247/ECTest/Master/Driver/FrmDriver.aspx?Menu_Item_Id=NgAzAA==&amp;Mode=MgA=&amp;Id=MQAwADIAOQA=</url>
+    <message>System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+Parameter name: Calendar.SelectedDates are out of the range of valid values.  All members of the SelectedDates collection must chronologically be between Calendar.MinDate and Calendar.MaxDate (inclusive).
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.VerifyDates()
+   at ComponentArt.Web.UI.Calendar.SelectedDatesArrayList.Insert(Int32 index, Object value)
+   at ComponentArt.Web.UI.DateCollection.Add(DateTime date)
+   at ComponentArt.Web.UI.Calendar.set_SelectedDate(DateTime value)
+   at CommonControls_WucDatePicker.set_SelectedDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\CommonControls\WucDatePicker.ascx.cs:line 53
+   at Master_Driver_WucDriverDetails.set_ReferenceDate(DateTime value) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 82
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter.initValues() in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 127
+   at Raj.EF.MasterPresenter.DriverDetailsPresenter..ctor(IDriverDetailsView DriverDetailsView, Boolean isPostback) in d:\12Apr2021\OMTuranth\ECTest\App_Code\CSCode\Master\Driver\Presenter\DriverDetailsPresenter.cs:line 43
+   at Master_Driver_WucDriverDetails.Page_Load(Object sender, EventArgs e) in d:\12Apr2021\OMTuranth\ECTest\Master\Driver\WucDriverDetails.ascx.cs:line 578
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>

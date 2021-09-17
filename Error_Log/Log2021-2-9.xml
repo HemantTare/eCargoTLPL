@@ -1,0 +1,26 @@
+<root>
+  <items>
+    <date>09/02/2021</date>
+    <time>14:46:21</time>
+    <url>http://localhost:53533/ECTest/Operations/Vehicle Trip Expense/FrmDriverTripAdvance.aspx?Id=MAA=&amp;Menu_Item_Id=MwAxADgA&amp;Mode=MQA=&amp;TripExpenseAprovalID=MgA0AA==&amp;Vehicle_No=TQBIADQAMwBVADUANQAzADQA&amp;Driver_Name=UwBIAFUASwBBAFIAVQBMAEwAQQBIACAASwBIAEEATgA=&amp;Advance=MQAwADAAMAA=</url>
+    <message>System.Data.SqlClient.SqlException: Could not find stored procedure 'dbo.EF_Opr_DriverTripAdvance_Savee'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ClassLibraryMVP.DataAccess.DAL.RunProc(String procName, SqlParameter[] params)
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.Save() in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 223
+   at Operations_VehicleTripExpense_FrmDriverTripAdvance.btn_Save_Exit_Click(Object sender, EventArgs e) in d:\Projects\DotNet\OmTuranth\Hemant Test\ECTest\Operations\Vehicle Trip Expense\FrmDriverTripAdvance.aspx.cs:line 172
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)</message>
+  </items>
+</root>
